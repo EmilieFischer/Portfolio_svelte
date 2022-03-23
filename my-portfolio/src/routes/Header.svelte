@@ -40,7 +40,7 @@ function toggleMenu() {
         </div>      
   
     <section>
-        <div class="bg-white/50 absolute z-30 top-0 slide-down-opacity h-full w-[45rem] ml-[39rem] grid content-center">
+        <div class="bg-white/50 absolute z-30 md:top-0 slide-down-opacity h-[45rem] md:h-full w-[45rem] md:ml-[39rem] grid content-center">
           <div class="typing-demo1">
               WEBDEVELOPER.
           </div>
@@ -91,7 +91,7 @@ a {
     overflow: hidden;
     border-right: 3px solid;
     font-family: 'BiauKai';
-    font-size: 3em;
+    font-size: 2.5rem;
     animation-delay: 0.5s;
 
   }
@@ -104,7 +104,7 @@ a {
     overflow: hidden;
     border-right: 3px solid;
     font-family: 'BiauKai';
-    font-size: 3em;
+    font-size: 2.5rem;
     animation-delay: 2s;
 
   }
@@ -116,8 +116,8 @@ a {
     overflow: hidden;
     border-right: 3px solid;
     font-family: 'BiauKai';
-    font-size: 3em;
-    animation-delay: 4s;
+    font-size: 2.5rem;
+    animation-delay: 2s;
   }
 @keyframes typing {
   to {
@@ -140,11 +140,7 @@ a {
     /* portfolio-animation */
   .portfolio_animation {
     font-family: 'BiauKai';
-    grid-column: 1/-1;
-    font-size: 8rem;
-    grid-row: 2;
-    display: flex;
-    justify-content: center;
+    font-size: 4rem;
     z-index: 1;
     letter-spacing: 0.5rem;
     animation-delay: 10s;
@@ -203,6 +199,9 @@ nav {
         background-image: url("src/img/bg_image.jpg");
     }
 
+    .typing-demo1, .typing-demo2, .typing-demo3 {
+        font-size: 3em;
+    }
     
     /* --------------------  BURGERMENU DESKTOP -------------------- */
     #menuknap {
@@ -243,6 +242,19 @@ opacity: 0;
 opacity: 1;
 }
 }
+
+.portfolio_animation {
+    font-family: 'BiauKai';
+    grid-column: 1/-1;
+    font-size: 8rem;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    letter-spacing: 0.5rem;
+    animation-delay: 3s;
   }
+  }
+
 
 </style>

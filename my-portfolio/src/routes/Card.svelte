@@ -9,9 +9,9 @@
     <img class="block" src={src} alt="">
     <div class="overlay">
         <div class="text-overlay">
-            <h4>Billetsalg.dk</h4>
+            <h4>{title}</h4>
             <div class="overlay_underline"></div>
-            <p class="overlay-text-description">Videoredigering</p>
+            <p class="overlay-text-description">{text}</p>
         </div>
     </div>
 </section>

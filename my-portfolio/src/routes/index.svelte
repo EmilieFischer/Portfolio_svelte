@@ -5,5 +5,14 @@
 
 </script>
 <main>
+    <section class="md:flex md:gap-4">
 <Card title="Hej med dig" src="src/img/kvadrat.jpg" text="og ja hej igen"/>
+<Card title="Hej med dig" src="src/img/kvadrat.jpg" text="og ja hej igen"/>
+<Card title="Hej med dig" src="src/img/kvadrat.jpg" text="og ja hej igen"/>
+    </section>
+    <section class="md:flex md:gap-4">
+        <Card title="Hej med dig" src="src/img/kvadrat.jpg" text="og ja hej igen"/>
+        <Card title="Hej med dig" src="src/img/kvadrat.jpg" text="og ja hej igen"/>
+        <Card title="Hej med dig" src="src/img/kvadrat.jpg" text="og ja hej igen"/>
+            </section>
 </main>

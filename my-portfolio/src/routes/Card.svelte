@@ -49,11 +49,11 @@ img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #222A31;
+    background-color: #ffffff52;
 }
 
 .text-overlay {
-    color: #fff;
+    color: #000000;
     font-size: 20px;
     position: absolute;
     top: 13%;
@@ -65,16 +65,6 @@ img {
 #card_projects:hover .overlay {
     opacity: 0.9;
 }
-
-/* 
-
-
-
-    #card_projects:hover {
-        background-color: white;
-        opacity: 70%;
-        cursor: pointer;
-    } */
 
 </style>
 

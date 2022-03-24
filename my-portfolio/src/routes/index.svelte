@@ -4,5 +4,6 @@
     import Card from "./Card.svelte";
 
 </script>
-
-<Card/>
+<main>
+<Card title="Hej med dig" src="src/img/kvadrat.jpg" text="og ja hej igen"/>
+</main>

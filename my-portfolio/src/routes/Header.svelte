@@ -18,8 +18,8 @@ function toggleMenu() {
 
 <header class="relative h-screen bg-cover">
         <div class="container flex place-items-center sticky justify-between z-50">
-            <figure  class:active={$page.url.pathname === '/index'}>
-                 <a sveltekit:prefetch href="/index">
+            <figure  class:active={$page.url.pathname === '/'}>
+                 <a sveltekit:prefetch href="/">
                      <img class="h-24" src="src/img/logo.svg" alt="logo">
                  </a>
              </figure>
@@ -40,7 +40,7 @@ function toggleMenu() {
         </div>      
   
     <section>
-        <div class="bg-white/50 absolute z-30 md:top-0 slide-down-opacity h-[45rem] md:h-full w-[45rem] md:ml-[39rem] grid content-center">
+        <div class="bg-white/50 absolute z-30 md:top-0 slide-down-opacity h-[30rem] md:h-full w-[25rem] md:w-[45rem] md:ml-[39rem] grid content-center">
           <div class="typing-demo1">
               WEBDEVELOPER.
           </div>
@@ -91,7 +91,7 @@ a {
     overflow: hidden;
     border-right: 3px solid;
     font-family: 'BiauKai';
-    font-size: 2.5rem;
+    font-size: 2rem;
     animation-delay: 0.5s;
 
   }
@@ -104,7 +104,7 @@ a {
     overflow: hidden;
     border-right: 3px solid;
     font-family: 'BiauKai';
-    font-size: 2.5rem;
+    font-size: 2rem;
     animation-delay: 2s;
 
   }
@@ -116,8 +116,8 @@ a {
     overflow: hidden;
     border-right: 3px solid;
     font-family: 'BiauKai';
-    font-size: 2.5rem;
-    animation-delay: 2s;
+    font-size: 2rem;
+    animation-delay: 2.5s;
   }
 @keyframes typing {
   to {

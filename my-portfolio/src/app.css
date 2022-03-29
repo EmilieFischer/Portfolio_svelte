@@ -12,23 +12,25 @@
     --link-font-color: rgb(69, 37, 164);
     --footer-background: rgb(40, 44, 44); 
     --h3-footer-color: rgb(173, 173, 173); 
+
+
+    --h3-font-size: 3rem;
 }
 html {
     font-family: sans-serif;
 }
 
+body {
+    background-color: #F6F5F5;
+
+}
+
+
 main {
-    max-width: 1200px;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    display: grid;
   }
-
-button {
-    padding: 1rem;
-    border-radius: 12px;
-    border: none;
-    transition: all 0.1s;
-    cursor: pointer;
-}
 
 

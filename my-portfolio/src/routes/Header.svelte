@@ -1,21 +1,26 @@
 <script>
 import { page } from '$app/stores';
 
-function toggleMenu() {
-  console.log("toggleMenu");
+// function toggleMenu() {
+//   console.log("toggleMenu");
 
-  document.querySelector("#menu").classList.toggle("show_none");
+//   document.querySelector("#menu").classList.toggle("show_none");
 
-  let erSkjult = document.querySelector("#menu").classList.contains("show_none");
+//   let erSkjult = document.querySelector("#menu").classList.contains("show_none");
 
-  if (erSkjult == true) {
-    document.querySelector("#menuknap").textContent = "☰";
-  } else {
-    document.querySelector("#menuknap").textContent = "✕";
-  }
+//   if (erSkjult == true) {
+//     document.querySelector("#menuknap").textContent = "☰";
+//   } else {
+//     document.querySelector("#menuknap").textContent = "✕";
+//   }
+// }
+
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
 }
-</script>
 
+</script>
+<!-- 
 <header class="relative h-screen bg-cover">
         <div class="container flex place-items-center sticky justify-between z-50">
             <figure  class:active={$page.url.pathname === '/'}>
@@ -26,12 +31,13 @@ function toggleMenu() {
          <nav>          
              <div on:click={toggleMenu} id="menuknap">☰</div>
                 <ul id="menu" class="show_none text-black text-lg z-50 place-items-center md:left-0 md:pt-1 md:gap-20 slide-in-right">
+                  <li class:active={$page.url.pathname === '/projects'}>
+                    <a sveltekit:prefetch href="/projects" class="hover:underline text-black hover:text-white">Portfolio</a>
+                  </li>
                     <li class:active={$page.url.pathname === '/about'}>
 				        <a sveltekit:prefetch href="/about" class="hover:underline text-black hover:text-white">About</a>
 			        </li>
-                     <li class:active={$page.url.pathname === '/projects'}>
-				        <a sveltekit:prefetch href="/projects" class="hover:underline text-black hover:text-white">Projects</a>
-			        </li>
+                     
                     <li class:active={$page.url.pathname === '/contact'}>
 				        <a sveltekit:prefetch href="/contact" class="hover:underline text-black hover:text-white">Contact</a>
 			        </li>
@@ -42,10 +48,10 @@ function toggleMenu() {
     <section>
         <div class="bg-white/50 absolute z-30 md:top-0 slide-down-opacity h-[30rem] md:h-full w-[25rem] md:w-[45rem] md:ml-[39rem] grid content-center">
           <div class="typing-demo1">
-              WEBDEVELOPER.
+            DIGITAL DESIGNER.
           </div>
           <div class="typing-demo2">
-              DIGITAL DESIGNER.
+              CONTENT CREATOR.
           </div>
             <div  class="typing-demo3">
               MULTIMEDIA DESIGNER.
@@ -53,12 +59,118 @@ function toggleMenu() {
         </div>
       </section>
       <p class="portfolio_animation text-white tracking-in-expand-fwd z-50">PORTFOLIO.</p>
-</header>
+</header> -->
 
+  <header>
+    <section id="hero-section" class="bg-red-200 h-screen">
+
+    </section>
+    <section id="navigation" class="justify-between absolute top-0 w-full">
+    <div id="brand" class:active={$page.url.pathname === '/'}>
+      <a sveltekit:prefetch href="/">
+          <img class="h-16" src="src/img/logo.svg" alt="logo">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li class:active={$page.url.pathname === '/projects'}>
+          <a sveltekit:prefetch href="/projects" class="hover:underline text-black">Portfolio</a>
+        </li>
+          <li class:active={$page.url.pathname === '/about'}>
+      <a sveltekit:prefetch href="/about" class="hover:underline text-black">About</a>
+    </li>
+           
+          <li class:active={$page.url.pathname === '/contact'}>
+      <a sveltekit:prefetch href="/contact" class="hover:underline text-black">Contact</a>
+    </li>
+      </ul>
+    </nav>
+    <div on:click={toggleMobileMenu} id="hamburger-icon" >
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="/home">Home</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+  </section>
+ </header>
 
 <style>
-header {
-    background-image: url("src/img/bg_phone.jpg");
+#navigation {
+  padding: 1.25rem;
+  background-color: #F6F5F5;
+  height: 5rem;
+  display: flex;
+}
+
+#brand {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-right: 8rem;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 3.125rem;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 0.625rem;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 2.188rem;
+  height: 0.188rem;
+  background-color: #000000;
+  margin: 0.375rem 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 a {
@@ -84,7 +196,7 @@ a {
 
   /* typografi-animation*/
     .typing-demo1 {
-    --w: 18ch;
+    --w: 20ch;
     width: 0ch;
     animation: typing 2.5s steps(22) forwards, blink .5s step-end infinite alternate ;
     white-space: nowrap;
@@ -168,14 +280,14 @@ a {
 
 
 /* --------------------  BURGERMENU MOBILE -------------------- */
-.show_none {
+/* .show_none {
   opacity: 0;
   transform: translateX(100%);
-}
+} */
 /* -----positionerer 'X' i burgermenuen------ */
-nav {
+/* nav { */
   /* display: grid; */
-  text-align: end;
+  /* text-align: end;
   overflow: hidden;
 }
 
@@ -190,21 +302,32 @@ nav {
   list-style-type: none;
   transition: transform 0.3s;
   position: absolute;
-}
+} */
 
 
 
-@media (min-width: 600px) {
-    header {
+
+   
+
+  @media only screen and (max-width: 600px) {
+       /* header {
         background-image: url("src/img/bg_image.jpg");
-    }
+    } */
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
 
     .typing-demo1, .typing-demo2, .typing-demo3 {
         font-size: 3em;
     }
     
     /* --------------------  BURGERMENU DESKTOP -------------------- */
-    #menuknap {
+    /* #menuknap {
       display: none;
     }
 
@@ -224,7 +347,7 @@ nav {
   
     p {
       text-align: justify;
-    }
+    } */
 
     /* slider navigationen ind */
   
@@ -254,7 +377,4 @@ opacity: 1;
     letter-spacing: 0.5rem;
     animation-delay: 3s;
   }
-  }
-
-
 </style>

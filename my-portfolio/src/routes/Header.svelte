@@ -62,7 +62,10 @@ function toggleMobileMenu(menu) {
 </header> -->
 
   <header>
-    <section id="hero-section" class="bg-red-200 h-screen">
+    <section id="hero-section" class="bg-red-200 h-screen grid">     
+      <div class="grid place-items-center relative" class:active={$page.url.pathname === '/projects'}>
+        <a class="absolute inset-x-auto bottom-6 pulsate-bck" sveltekit:prefetch href="/projects"> <img class="h-16 " src="src/img/scroll_down.png" alt=""></a>
+      </div>
 
     </section>
     <section id="navigation" class="justify-between absolute top-0 w-full">
@@ -95,6 +98,7 @@ function toggleMobileMenu(menu) {
         <li><a href="/about">About</a></li>
       </ul>
     </div>
+   
   </section>
  </header>
 
@@ -307,7 +311,6 @@ a {
 
 
 
-   
 
   @media only screen and (max-width: 600px) {
        /* header {

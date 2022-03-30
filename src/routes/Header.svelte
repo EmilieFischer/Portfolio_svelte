@@ -1,5 +1,7 @@
 <script>
 import { page } from '$app/stores';
+export let title;
+
 
 // function toggleMenu() {
 //   console.log("toggleMenu");
@@ -69,7 +71,10 @@ function toggleMobileMenu() {
 
   <header>
 
-    <section id="hero-section" class="bg-red-200 h-screen grid">     
+    <section id="hero-section" class="bg-red-200 h-screen grid"> 
+      <div class="grid place-items-center relative">
+        <h1 class="absolute inset-x-auto bottom-6">{title}</h1>
+      </div>
       <div class="grid place-items-center relative" class:active={$page.url.pathname === '/projects'}>
         <a class="absolute inset-x-auto bottom-6 pulsate-bck" sveltekit:prefetch href="/projects"> <img class="h-16 " src="/img/scroll_down.png" alt=""></a>
       </div>
@@ -110,6 +115,8 @@ function toggleMobileMenu() {
  </header>
 
 <style>
+
+
 #navigation {
   padding: 1.25rem;
   background-color: #F6F5F5;
@@ -147,6 +154,8 @@ ul li:hover {
 
 .mobile-menu li {
   margin-bottom: 0.625rem;
+  margin-top: 5rem;
+
 }
 
 #hamburger-icon {
@@ -183,6 +192,7 @@ ul li:hover {
 
 .open .mobile-menu{
   display: flex;
+  position: absolute;
   flex-direction: column;
   align-items: center;
   background-color: pink;

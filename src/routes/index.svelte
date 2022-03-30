@@ -5,7 +5,7 @@
     import { page } from '$app/stores';
 </script>
 
-
+<Header title="PORTFOLIO"/>
 <main>
     <section class="md:grid md:grid-cols-2 bg-cyan-100 md:p-10 p-4">
         <div class="md:col-start-1 md:col-span-1 p-4">

@@ -4,11 +4,9 @@ import Header from "./Header.svelte";
 
 </script>
 
-<Header/>
+<Header title="CONTACT ME"/>
 <main>
-    <section>
-        <img src="/img/bg_image.jpg" alt="">
-    </section>
+  
 </main>
 
 <Footer/>

@@ -78,7 +78,7 @@ function toggleMobileMenu() {
     <section id="navigation" class="justify-between absolute top-0 w-full">
     <div id="brand" class:active={$page.url.pathname === '/'}>
       <a sveltekit:prefetch href="/">
-          <img class="h-16" src="/img/logo.svg" alt="logo">
+          <img class="h-16" src="./img/logo.svg" alt="logo">
       </a>
     </div>
     <nav>

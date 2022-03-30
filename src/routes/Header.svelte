@@ -31,7 +31,7 @@ function toggleMobileMenu() {
         <div class="container flex place-items-center sticky justify-between z-50">
             <figure  class:active={$page.url.pathname === '/'}>
                  <a sveltekit:prefetch href="/">
-                     <img class="h-24" src="src/img/logo.svg" alt="logo">
+                     <img class="h-24" src="/img/logo.svg" alt="logo">
                  </a>
              </figure>
          <nav>          
@@ -71,14 +71,14 @@ function toggleMobileMenu() {
 
     <section id="hero-section" class="bg-red-200 h-screen grid">     
       <div class="grid place-items-center relative" class:active={$page.url.pathname === '/projects'}>
-        <a class="absolute inset-x-auto bottom-6 pulsate-bck" sveltekit:prefetch href="/projects"> <img class="h-16 " src="src/img/scroll_down.png" alt=""></a>
+        <a class="absolute inset-x-auto bottom-6 pulsate-bck" sveltekit:prefetch href="/projects"> <img class="h-16 " src="/img/scroll_down.png" alt=""></a>
       </div>
 
     </section>
     <section id="navigation" class="justify-between absolute top-0 w-full">
     <div id="brand" class:active={$page.url.pathname === '/'}>
       <a sveltekit:prefetch href="/">
-          <img class="h-16" src="src/img/logo.svg" alt="logo">
+          <img class="h-16" src="/img/logo.svg" alt="logo">
       </a>
     </div>
     <nav>

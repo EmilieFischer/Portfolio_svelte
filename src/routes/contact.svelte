@@ -7,7 +7,7 @@ import Header from "./Header.svelte";
 <Header/>
 <main>
     <section>
-        <img src="src/img/bg_image.jpg" alt="">
+        <img src="/img/bg_image.jpg" alt="">
     </section>
 </main>
 

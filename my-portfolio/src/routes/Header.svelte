@@ -14,9 +14,10 @@ import { page } from '$app/stores';
 //     document.querySelector("#menuknap").textContent = "✕";
 //   }
 // }
-
-function toggleMobileMenu(menu) {
-  menu.classList.toggle('open');
+const menu = document.querySelector(".mobile-menu");
+function toggleMobileMenu() {
+  console.log(menu)
+  //menu.classList.toggle('open');
 }
 
 </script>
@@ -170,7 +171,8 @@ ul li:hover {
   transform: rotate(45deg) translate(-6px, -8px);
 }
 
-.open .mobile-menu {
+.mobile-menu.open {
+  display: block;
   display: flex;
   flex-direction: column;
   align-items: center;

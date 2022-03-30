@@ -14,11 +14,16 @@ import { page } from '$app/stores';
 //     document.querySelector("#menuknap").textContent = "✕";
 //   }
 // }
-const menu = document.querySelector(".mobile-menu");
+// const menu = document.querySelector(".mobile-menu");
+
+let open = false;
 function toggleMobileMenu() {
-  console.log(menu)
-  //menu.classList.toggle('open');
+  open = !open;
+
 }
+
+
+
 
 </script>
 <!-- 
@@ -63,6 +68,7 @@ function toggleMobileMenu() {
 </header> -->
 
   <header>
+
     <section id="hero-section" class="bg-red-200 h-screen grid">     
       <div class="grid place-items-center relative" class:active={$page.url.pathname === '/projects'}>
         <a class="absolute inset-x-auto bottom-6 pulsate-bck" sveltekit:prefetch href="/projects"> <img class="h-16 " src="src/img/scroll_down.png" alt=""></a>
@@ -89,10 +95,10 @@ function toggleMobileMenu() {
     </li>
       </ul>
     </nav>
-    <div on:click={toggleMobileMenu} id="hamburger-icon" >
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
+    <div on:click={toggleMobileMenu} id="hamburger-icon" class:open>
+      <div class="bar1 bar"></div>
+      <div class="bar2 bar"></div>
+      <div class="bar3 bar"></div>
       <ul class="mobile-menu">
         <li><a href="/home">Home</a></li>
         <li><a href="/products">Products</a></li>
@@ -133,9 +139,9 @@ ul li:hover {
 .mobile-menu {
   display: none;
   position: absolute;
-  top: 3.125rem;
+  top: 0;
   left: 0;
-  height: calc(100vh - 50px);
+  height: 100vh;
   width: 100%;
 }
 
@@ -157,26 +163,29 @@ ul li:hover {
   transition: 0.4s;
 }
 
+.bar {
+  position: relative;
+  z-index: 10;
+}
 .open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
   transform: rotate(-45deg) translate(-6px, 6px);
 }
 
 .open .bar2 {
   opacity: 0;
+
 }
 
 .open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -8px);
   transform: rotate(45deg) translate(-6px, -8px);
+
 }
 
-.mobile-menu.open {
-  display: block;
+.open .mobile-menu{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  background-color: pink;
 }
 
 a {
@@ -186,6 +195,22 @@ a {
 /* ***************************** ANIMATIONS *****************************  */
 
   /* slider opacity box og navigation ned fra oven */
+
+
+  .slide-in-right {
+    animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-right {
+0% {
+        transform: translateX(-100%);
+opacity: 0;
+}
+100% {
+        transform: translateX(0);
+opacity: 1;
+}
+}
   .slide-down-opacity {
 	        animation: slide-down-opacity 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }

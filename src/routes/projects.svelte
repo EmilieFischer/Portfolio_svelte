@@ -14,9 +14,9 @@
     </div>
   
    <div class="grid place-content-center">
-       <div class="flex">
+       <div class="md:flex grid place-content-center">
             <div>
-                <ul class="flex place-self-center gap-20 mr-20">
+                <ul class="flex place-self-center gap-20 md:mr-20 mb-10 md:mb-0">
                     <li class:active={$page.url.pathname === '/projects'}>
                     <a sveltekit:prefetch href="/projects" class="hover:underline text-black">Project 1</a>
                     </li>

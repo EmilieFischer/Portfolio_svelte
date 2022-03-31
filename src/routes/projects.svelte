@@ -2,7 +2,6 @@
     import Footer from "./Footer.svelte";
     import Header from "./Header.svelte";
     import Projectsingular from "./Projectsingular.svelte";
-
     import { page } from '$app/stores';
 
     </script>
@@ -44,7 +43,22 @@
         </div>
     </div>
 <section class="mt-40">
-    <Projectsingular project_name="Tema 1" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+    <Projectsingular projektnummer="01" project_name="Tema 1" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+</section>
+<section class="mt-40">
+    <Projectsingular projektnummer="02" project_name="Tema 2" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+</section>
+<section class="mt-40">
+    <Projectsingular projektnummer="03" project_name="Tema 3" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+</section>
+<section class="mt-40">
+    <Projectsingular projektnummer="04" project_name="Tema 4" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+</section>
+<section class="mt-40">
+    <Projectsingular projektnummer="05" project_name="Tema 5" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+</section>
+<section class="mt-40">
+    <Projectsingular projektnummer="06" project_name="Tema 6" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
 </section>
 
 </main>

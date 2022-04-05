@@ -14,7 +14,7 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam debitis dolorum illum sequi ea quos animi doloremque delectus nihil voluptatum, facere ad voluptatem esse necessitatibus in rem, et provident! Quisquam corporis atque voluptas at officia, vel beatae eligendi autem eaque culpa eveniet dolores minima exercitationem animi laboriosam perferendis a ad magni, itaque ea asperiores! Minima, dolores ullam. Eum, inventore impedit ma exercitationem animi laboriosam perferendis a ad magni, itaqma exercitationem animi laboriosam perferendis a ad magni, itaq?</p>
         </div>
         <div class="md:col-start-2 md:col-span-1">
-            <img class="w-64 h-auto md:h-[710px] md:w-[710px] p-4" src="/img/kvadrat.jpg" alt="">
+            <img class="w-64 h-auto md:h-[710px] md:w-[710px] p-4" src="kvadrat.jpg" alt="">
         </div>
     </section>
 
@@ -24,28 +24,28 @@
 
     <section class="grid md:grid-cols-6 gap-5 md:grid-rows-8">
         <div class="md:col-start-1 md:col-span-3 md:row-start-1 md:row-span-1">
-            <img  src="/img/bg_image.jpg" alt="">
+            <img  src="bg_image.jpg" alt="">
         </div>
         <div class="md:col-start-4 md:col-span-3 md:row-start-1 md:row-span-1">
-            <img  src="/img/bg_image.jpg" alt="">
+            <img  src="bg_image.jpg" alt="">
         </div>
         <div class="md:col-start-1 md:col-span-2 md:row-start-2 md:row-span-2">
-            <img  src="/img/bg_phone.jpg" alt="">
+            <img  src="bg_phone.jpg" alt="">
         </div>
         <div class="md:col-start-3 md:col-span-2 md:row-start-2 md:row-span-1">
-            <img  src="/img/kvadrat.jpg" alt="">
+            <img  src="kvadrat.jpg" alt="">
         </div>
         <div class="md:col-start-5 md:col-span-2 md:row-start-2 md:row-span-2">
-            <img  src="/img/bg_phone.jpg" alt="">
+            <img  src="bg_phone.jpg" alt="">
         </div>
         <div class="md:col-start-1 md:col-span-2">
-            <img  src="/img/kvadrat.jpg" alt="">
+            <img  src="kvadrat.jpg" alt="">
         </div>
         <div class="md:col-start-3 md:col-span-2 md:row-start-3 md:row-span-2">
-            <img  src="/img/bg_phone.jpg" alt="">
+            <img  src="bg_phone.jpg" alt="">
         </div>
         <div class="md:col-start-5 md:col-span-2">
-            <img  src="/img/kvadrat.jpg" alt="">
+            <img  src="kvadrat.jpg" alt="">
         </div>
 
     </section>
@@ -93,7 +93,7 @@
               </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="/img/kvadrat.jpg" alt="">
+            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
         </div>
 
     

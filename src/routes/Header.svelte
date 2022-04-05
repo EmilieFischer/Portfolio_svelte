@@ -76,14 +76,14 @@ function toggleMobileMenu() {
         <h1 class="absolute inset-x-auto bottom-6">{title}</h1>
       </div>
       <div class="grid place-items-center relative" class:active={$page.url.pathname === '/projects'}>
-        <a class="absolute inset-x-auto bottom-6 pulsate-bck" sveltekit:prefetch href="/projects"> <img class="h-16 " src="/img/scroll_down.png" alt=""></a>
+        <a class="absolute inset-x-auto bottom-6 pulsate-bck" sveltekit:prefetch href="/projects"> <img class="h-16 " src="scroll_down.png" alt=""></a>
       </div>
 
     </section>
     <section id="navigation" class="justify-between absolute top-0 w-full">
     <div id="brand" class:active={$page.url.pathname === '/'}>
       <a sveltekit:prefetch href="/">
-          <img class="h-16" src="./img/logo.svg" alt="logo">
+          <img class="h-16" src="logo.svg" alt="logo">
       </a>
     </div>
     <nav>

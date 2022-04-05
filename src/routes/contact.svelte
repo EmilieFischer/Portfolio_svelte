@@ -49,16 +49,16 @@ import Header from "./Header.svelte";
     
     </div>
     <div class="grid place-content-center">
-        <img class="h-[26rem] mb-5" src="/img/kvadrat.jpg" alt="">
+        <img class="h-[26rem] mb-5" src="kvadrat.jpg" alt="">
         <div class="md:col-start-1 md:col-span-1">
             <ul class="flex justify-between">
                 <div>
             <li class="flex pb-4">
-                <img src="/img/kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="">
                 <p>+45 2851 3171</p>
             </li>
             <li class="flex pb-4">
-                <img src="/img/kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="">
                 <p>emiliefdhansen@hotmail.com</p>
             </li>
         </div>

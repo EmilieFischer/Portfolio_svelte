@@ -16,7 +16,7 @@
               </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="/img/kvadrat.jpg" alt="">
+            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
         </div>
     </section>
 
@@ -25,14 +25,14 @@
         </div>
 <section class="grid md:place-content-center">
     <div class="md:flex">
-        <Kompetencer img_kompetence="/img/kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-        <Kompetencer img_kompetence="/img/kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-        <Kompetencer img_kompetence="/img/kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
+        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
+        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
+        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
     </div>
     <div class="md:flex">
-        <Kompetencer img_kompetence="/img/kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-        <Kompetencer img_kompetence="/img/kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-        <Kompetencer img_kompetence="/img/kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
+        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
+        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
+        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
     </div>
     </section>
 
@@ -45,7 +45,7 @@
               </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="/img/kvadrat.jpg" alt="">
+            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
         </div>
     </section>
 
@@ -58,7 +58,7 @@
               </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="/img/kvadrat.jpg" alt="">
+            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
         </div>
     </section>
 

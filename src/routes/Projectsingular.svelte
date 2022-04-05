@@ -24,17 +24,17 @@
 
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="w-auto md:p-10"  src="/img/bg_image.jpg" alt="">
+            <img class="w-auto md:p-10"  src="bg_image.jpg" alt="">
             <button class:active={$page.url.pathname === '/projects'}>
                 <a sveltekit:prefetch href="/projects" class="hover:underline text-black border-2 border-black place-self-center">Portfolio</a>
               </button>
         </div>
     </div>
     <div class="md:flex md:justify-between grid grid-cols-2 grid-rows-2">
-        <img class="md:h-[23rem] w-auto"  src="/img/kvadrat.jpg" alt="">
-        <img class="md:h-[23rem] w-auto"  src="/img/kvadrat.jpg" alt="">
-        <img class="md:h-[23rem] w-auto"  src="/img/kvadrat.jpg" alt="">
-        <img class="md:h-[23rem] w-auto"  src="/img/kvadrat.jpg" alt="">
+        <img class="md:h-[23rem] w-auto"  src="kvadrat.jpg" alt="">
+        <img class="md:h-[23rem] w-auto"  src="kvadrat.jpg" alt="">
+        <img class="md:h-[23rem] w-auto"  src="kvadrat.jpg" alt="">
+        <img class="md:h-[23rem] w-auto"  src="kvadrat.jpg" alt="">
     </div>
     <div class="md:grid md:grid-cols-2 bg-cyan-100 mdp-10">
         <div class="md:col-start-1 md:col-span-1 md:p-10 pl-5">
@@ -48,29 +48,29 @@
             <ul class="flex justify-between">
                 <div>
             <li class="flex pb-4">
-                <img src="/img/kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="">
                 <p>{redskab}</p>
             </li>
             <li class="flex pb-4">
-                <img src="/img/kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="">
                 <p>{redskab}</p>
             </li>
             <li class="flex pb-4">
-                <img src="/img/kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="">
                 <p>{redskab}</p>
             </li>
         </div>
         <div class="pr-14 md:pr-0">
             <li class="flex pb-4">
-                <img src="/img/kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="">
                 <p>{redskab}</p>
             </li>
             <li class="flex pb-4">
-                <img src="/img/kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="">
                 <p>{redskab}</p>
             </li>
             <li class="flex">
-                <img src="/img/kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="">
                 <p>{redskab}</p>
             </li>
         </div>

@@ -78,10 +78,10 @@
     </div>
 
     <section class="md:grid md:grid-cols-4 md:pl-10 md:pr-10 gap-4 mb-20">
-        <img src="/img/kvadrat.jpg" alt="">
-        <img src="/img/kvadrat.jpg" alt="">
-        <img src="/img/kvadrat.jpg" alt="">
-        <img src="/img/kvadrat.jpg" alt="">
+        <img src="kvadrat.jpg" alt="kvadrat">
+        <img src="kvadrat.jpg" alt="kvadrat">
+        <img src="kvadrat.jpg" alt="kvadrat">
+        <img src="kvadrat.jpg" alt="kvadrat">
     </section>
 
     <section class="md:grid md:grid-cols-2 bg-cyan-100 p-10">

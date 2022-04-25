@@ -57,7 +57,7 @@
         </div>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img {src} class="w-auto md:p-10" alt="">
+            <img {src} class="w-auto" alt="">
             <button class:active={$page.url.pathname === '/projects'}>
                 <a sveltekit:prefetch href="/projects" class="hover:underline text-black border-2 border-black place-self-center">Se website</a>
               </button>

@@ -1,6 +1,7 @@
 <script>
 import Footer from "./Footer.svelte";
 import Header from "./Header.svelte";
+import Button from "./Button.svelte";
 
 </script>
 
@@ -20,30 +21,28 @@ import Header from "./Header.svelte";
       class="max-w-screen-xl px-8 md:px-0 grid gap-8 grid-cols-1 md:grid-cols-2 py-16 mx-auto bg-gray-100 text-gray-900">
       <div class="flex flex-col">
         <div>
-          <h2 class="text-4xl lg:text-5xl leading-tight">Lets talk about everything!</h2>
+          <h2 class="text-4xl lg:text-5xl leading-tight pb-9">Lets talk about everything!</h2>
         </div>
         
       <div>
         <div>
-          <span class="uppercase text-sm  font-bold">Full Name</span>
-          <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+          <span class="uppercase text-sm  font-bold">Full Name / Company</span>
+          <input class="w-full  text-gray-900 border-2  bg-[#F6F5F5] border-black mt-2 p-3 focus:outline-none focus:shadow-outline"
             type="text" placeholder="">
         </div>
         <div class="mt-8">
           <span class="uppercase text-sm  font-bold">Email</span>
-          <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+          <input class="w-full border-2 border-black mt-2 p-3 bg-[#F6F5F5]  focus:outline-none focus:shadow-outline"
             type="text">
         </div>
         <div class="mt-8">
-          <span class="uppercase text-sm  font-bold">Message</span>
+          <span class="uppercase text-sm  font-bold">Please write your message here</span>
           <textarea
-            class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+            class="w-full h-32 border-2 border-black mt-2 p-3 bg-[#F6F5F5] focus:outline-none focus:shadow-outline"></textarea>
         </div>
         <div class="mt-8">
-          <button
-            class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-            Send Message
-          </button>
+          <Button buttontext="Send me a message!"/>
+
         </div>
       </div>
     

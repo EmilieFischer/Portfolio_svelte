@@ -3,6 +3,7 @@
     import Header from "./Header.svelte";
     import Card from "./Card.svelte";
     import { page } from '$app/stores';
+    import Button from "./Button.svelte";
 </script>
 
 <Header title="PORTFOLIO"/>
@@ -19,9 +20,7 @@
         </div>
         <div class="md:col-start-2 md:col-span-1 grid justify-center">
             <img class="w-64 h-auto md:h-[710px] md:w-[710px] p-4" src="kvadrat.jpg" alt="">
-            <button class:active={$page.url.pathname === '/about'}>
-                <a sveltekit:prefetch href="/about" class="hover:underline text-black border-2 border-black place-self-center">Want to know a little more about me?</a>
-              </button>
+            <Button buttontext="Want to know me a little bit more?"/>
         </div>
     </section>
 
@@ -82,7 +81,7 @@
     </section>
 
     <div class="grid pt-20 pb-10">
-    <!-- <h2 class="text-6xl place-self-center">Playing around</h2> -->
+    <h2 class="text-6xl place-self-center">Playing around</h2>
     </div>
 <!-- 
     <section class="md:grid md:grid-cols-4 md:pl-10 md:pr-10 gap-4 mb-20">
@@ -96,9 +95,8 @@
         <div class="md:col-start-1 md:col-span-1 p-10 grid justify-center">
             <h3 class="text-4xl pb-10 flex place-self-center">Looking for a new intern?</h3>
             <p>Multimedia designer looking for a digital workplace. <br> If you're missing an ambitious, curious and hardworking intern/coworker, don't hesitate to send me a message. I'm sure I would love to hear from you.</p>
-            <button class:active={$page.url.pathname === '/projects'}>
-                <a sveltekit:prefetch href="/projects" class="hover:underline text-black border-2 border-black place-self-center">Contact me here</a>
-            </button>
+            <Button buttontext="Contact me here"/>
+
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
             <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">

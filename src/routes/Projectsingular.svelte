@@ -1,5 +1,6 @@
 <script>
     import { page } from '$app/stores';
+    import Button from './Button.svelte'; 
 
     export let project_name;
     export let text_project;
@@ -12,6 +13,7 @@
     export let programmer;
     export let projektnummer;
     export let src;
+
 </script>
 
 
@@ -26,30 +28,30 @@
             <h3 class="text-3xl pb-10  pt-16 md:pt-10">{programmer}</h3>
             <div class="flex">
             <div class="pr-28">
-                <li class="flex pb-4">
-                    <img src="kaffe.svg" alt="">
+                <li class="flex pb-4 items-center">
+                    <img class="pr-3" src="tools.svg" alt="">
                     <p>{redskab1}</p>
                 </li>
-                <li class="flex pb-4">
-                    <img src="kaffe.svg" alt="">
+                <li class="flex pb-4 items-center">
+                    <img class="pr-3" src="tools.svg" alt="">
                     <p>{redskab2}</p>
                 </li>
-                <li class="flex">
-                    <img src="kaffe.svg" alt="">
+                <li class="flex items-center">
+                    <img class="pr-3" src="tools.svg" alt="">
                     <p>{redskab3}</p>
                 </li>
             </div>
             <div class="pr-14 md:pr-0">
-                <li class="flex pb-4">
-                    <img src="kaffe.svg" alt="">
+                <li class="flex pb-4 items-center">
+                    <img class="pr-3" src="tools.svg" alt="">
                     <p>{redskab4}</p>
                 </li>
-                <li class="flex pb-4">
-                    <img src="kaffe.svg" alt="">
+                <li class="flex pb-4 items-center">
+                    <img class="pr-3" src="tools.svg" alt="">
                     <p>{redskab5}</p>
                 </li>
                 <li class="flex">
-                    <img src="kaffe.svg" alt="">
+                    <img class="pr-3 items-center" src="tools.svg" alt="">
                     <p>{redskab6}</p>
                 </li>
             </div>
@@ -58,9 +60,8 @@
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
             <img {src} class="w-auto" alt="">
-            <button class:active={$page.url.pathname === '/projects'}>
-                <a sveltekit:prefetch href="/projects" class="hover:underline text-black border-2 border-black place-self-center">Se website</a>
-              </button>
+            <Button buttontext="Se website"/>
+
         </div>
     </div>
     <!-- <div class="md:flex md:justify-between grid grid-cols-2 grid-rows-2">

@@ -89,10 +89,10 @@ function toggleMobileMenu() {
     <nav>
       <ul>
         <li class:active={$page.url.pathname === '/projects'}>
-          <a sveltekit:prefetch href="/projects" class="hover:underline text-black">Portfolio</a>
+          <a sveltekit:prefetch href="/projects" class="hover:underline text-black">My work</a>
         </li>
           <li class:active={$page.url.pathname === '/about'}>
-      <a sveltekit:prefetch href="/about" class="hover:underline text-black">About</a>
+      <a sveltekit:prefetch href="/about" class="hover:underline text-black">Get to know me</a>
     </li>
            
           <li class:active={$page.url.pathname === '/contact'}>
@@ -100,16 +100,25 @@ function toggleMobileMenu() {
     </li>
       </ul>
     </nav>
+
     <div on:click={toggleMobileMenu} id="hamburger-icon" class:open>
+      
       <div class="bar1 bar"></div>
       <div class="bar2 bar"></div>
       <div class="bar3 bar"></div>
       <ul class="mobile-menu">
-        <li><a href="/home">Home</a></li>
-        <li><a href="/products">Products</a></li>
-        <li><a href="/about">About</a></li>
+        <li class:active={$page.url.pathname === '/projects'}>
+          <a sveltekit:prefetch href="/projects" class="hover:underline text-black">My work</a>
+        </li>
+        <li class:active={$page.url.pathname === '/about'}>
+          <a sveltekit:prefetch href="/about" class="hover:underline text-black">Get to know me</a>
+        </li>
+        <li class:active={$page.url.pathname === '/contact'}>
+          <a sveltekit:prefetch href="/contact" class="hover:underline text-black">Contact</a>
+        </li>
       </ul>
-    </div>
+    
+  </div>
    
   </section>
  </header>
@@ -119,7 +128,6 @@ function toggleMobileMenu() {
 
 #navigation {
   padding: 1.25rem;
-  background-color: #F6F5F5;
   height: 5rem;
   display: flex;
 }

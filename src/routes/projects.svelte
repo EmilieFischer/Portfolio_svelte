@@ -43,22 +43,22 @@
         </div>
     </div>
 <section class="mt-40">
-    <Projectsingular projektnummer="01" project_name="Tema 1" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+    <Projectsingular src="projekt1.png" projektnummer="01" project_name="Bagerens Brød - Game" text_project="This project was made on 1st semester at KEA. The assignment was to design and develop a game using HTML, CSS and Javascript, and for me this was also the first time using Javascript. To present the game I created a website which enclosed some of the proces creating the game. If you click on the link you will see the website in which you can also play the game." programmer="Skills used in this project" redskab1="HTML" redskab2="CSS" redskab3="Javascript" redskab4="Adobe Illustrator" redskab5="Adobe Photoshop" redskab6="Adobe Photoshop" />
 </section>
 <section class="mt-40">
-    <Projectsingular projektnummer="02" project_name="Tema 2" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+    <Projectsingular src="projekt2.png" projektnummer="02" project_name="Do Lah - Exam project" text_project="This project was our second semester exam project. The assignment was to work with an entrepreneur for whom we had to design and develop a new website using a CMS, innovate their visual identity and also to make video-, imagery- and SoMe content as well. This assignment was also the first time working with SEO, and therefore to make sure that the site was SEO optimized." programmer="Skills & tools used" redskab1="Wordpress" redskab2="HTML" redskab3="CSS" redskab4="Javascript" redskab5="Adobe Premiere Pro" redskab6="Adobe Illustrator & Photoshop"/>
 </section>
 <section class="mt-40">
-    <Projectsingular projektnummer="03" project_name="Tema 3" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+    <Projectsingular src="projekt3.png" projektnummer="03" project_name="Skolemad - 3th semester project" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" programmer="Skills & tools used" redskab1="HTML" redskab2="HTML" redskab3="HTML" redskab4="HTML" redskab5="HTML" redskab6="HTML"/>
 </section>
 <section class="mt-40">
-    <Projectsingular projektnummer="04" project_name="Tema 4" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+    <Projectsingular src="projekt4.png" projektnummer="04" project_name="Musikloftet - 3th semester project"  text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" programmer="Skills & tools used" redskab1="HTML" redskab2="HTML" redskab3="HTML" redskab4="HTML" redskab5="HTML" redskab6="HTML"/>
 </section>
 <section class="mt-40">
-    <Projectsingular projektnummer="05" project_name="Tema 5" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+    <Projectsingular src="projekt4.png" projektnummer="05" project_name="Ungdomsbyen - 2th semester project" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" programmer="Skills & tools used" redskab1="HTML" redskab2="HTML" redskab3="HTML" redskab4="HTML" redskab5="HTML" redskab6="HTML"/>
 </section>
 <section class="mt-40">
-    <Projectsingular projektnummer="06" project_name="Tema 6" opgavebeskrivelse="Opgavebeskrivelse" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" mine_arbejdsopgaver="Mine arbejdsopgaver" programmer="Programmer jeg har brugt" redskab="HTML CSS"/>
+    <Projectsingular src="projekt4.png" projektnummer="06" project_name="Typography assignment - 3th semester" text_project="Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig Hej med dig" programmer="Skills & tools used" redskab1="HTML" redskab2="HTML" redskab3="HTML" redskab4="HTML" redskab5="HTML" redskab6="HTML"/>
 </section>
 
 </main>

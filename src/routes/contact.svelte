@@ -8,7 +8,7 @@ import Header from "./Header.svelte";
 <main>
  
 <div class="grid pt-20 pb-10">
-    <h2 class="text-6xl place-self-center pl-5 md:pl-0">Har du noget på hjerte?</h2>
+    <h2 class="text-6xl place-self-center pl-5 md:pl-0">Do you have something on your mind?</h2>
     <p class="place-self-center">Then please give me a call or write me an email!</p>
 </div>
 

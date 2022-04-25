@@ -10,30 +10,38 @@
     <section class="md:grid md:grid-cols-2 bg-cyan-100 md:p-10 p-4">
         <div class="md:col-start-1 md:col-span-1 p-4">
             <h3 class="text-[7rem] pb-8">Hi!</h3>
-            <p class="text-4xl pb-10">My name is Emilie Fischer and I'm currently studying Multimedia Design at Copenhagen School of Design and Technology.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam debitis dolorum illum sequi ea quos animi doloremque delectus nihil voluptatum, facere ad voluptatem esse necessitatibus in rem, et provident! Quisquam corporis atque voluptas at officia, vel beatae eligendi autem eaque culpa eveniet dolores minima exercitationem animi laboriosam perferendis a ad magni, itaque ea asperiores! Minima, dolores ullam. Eum, inventore impedit ma exercitationem animi laboriosam perferendis a ad magni, itaqma exercitationem animi laboriosam perferendis a ad magni, itaq?</p>
+            <img src="pil.png" alt="">
+            <p class="text-4xl pb-10">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
+            <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital design student my main focus is to create and design digital solutions based on both user experience and user interface. However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript. </p>
+            <p>As a person I'm curious and interested in all the different aspects of creating digital solutions together with other creative minds, which makes being a multimedia design student a very exciting and interesting study!</p>
+            <p>If you look below you will find a little selection of some of my work and projects that I've done at KEA. Each project is a link, so if you click you will be led on to more information about each project.</p>
+            <p>I hope you will enjoy!</p>
         </div>
-        <div class="md:col-start-2 md:col-span-1">
+        <div class="md:col-start-2 md:col-span-1 grid justify-center">
             <img class="w-64 h-auto md:h-[710px] md:w-[710px] p-4" src="kvadrat.jpg" alt="">
+            <button class:active={$page.url.pathname === '/about'}>
+                <a sveltekit:prefetch href="/about" class="hover:underline text-black border-2 border-black place-self-center">Want to know a little more about me?</a>
+              </button>
         </div>
     </section>
 
+
     <div class="grid pt-20 pb-10">
-        <h2 class="text-6xl place-self-center">My portfolio</h2>
+        <h2 class="text-6xl place-self-center">My work</h2>
     </div>
 
     <section class="grid md:grid-cols-6 gap-5 md:grid-rows-8">
         <div class="md:col-start-1 md:col-span-3 md:row-start-1 md:row-span-1">
-            <img  src="bg_image.jpg" alt="">
+            <img  src="projekt1.png" alt="">
         </div>
         <div class="md:col-start-4 md:col-span-3 md:row-start-1 md:row-span-1">
-            <img  src="bg_image.jpg" alt="">
+            <img  src="projekt3.png" alt="">
         </div>
         <div class="md:col-start-1 md:col-span-2 md:row-start-2 md:row-span-2">
             <img  src="bg_phone.jpg" alt="">
         </div>
         <div class="md:col-start-3 md:col-span-2 md:row-start-2 md:row-span-1">
-            <img  src="kvadrat.jpg" alt="">
+            <img  src="projekt2kvadrat.png" alt="">
         </div>
         <div class="md:col-start-5 md:col-span-2 md:row-start-2 md:row-span-2">
             <img  src="bg_phone.jpg" alt="">
@@ -52,9 +60,9 @@
 
     <section class="grid bg-red-200 md:h-80 h-[40rem] place-items-center">
         <div class="grid place-items-center mt-10 mb-10">
-        <h3 class="text-6xl">Contact</h3>
-        <p>hej med dig hej med dig hej med dig hej med dig</p>
-        <p>hej med dig hej med dig</p>
+        <h3 class="text-6xl">Get in contact</h3>
+        <p>Do you have something on your mind?</p>
+        <p>Feel free to send me a message in any kind, I would love to get in touch with you! </p>
         </div>
 
         <div class="md:flex md:gap-96 md:mb-10">
@@ -74,23 +82,23 @@
     </section>
 
     <div class="grid pt-20 pb-10">
-    <h2 class="text-6xl place-self-center">Playing around</h2>
+    <!-- <h2 class="text-6xl place-self-center">Playing around</h2> -->
     </div>
-
+<!-- 
     <section class="md:grid md:grid-cols-4 md:pl-10 md:pr-10 gap-4 mb-20">
         <img src="kvadrat.jpg" alt="kvadrat">
         <img src="kvadrat.jpg" alt="kvadrat">
         <img src="kvadrat.jpg" alt="kvadrat">
         <img src="kvadrat.jpg" alt="kvadrat">
-    </section>
+    </section> -->
 
     <section class="md:grid md:grid-cols-2 bg-cyan-100 p-10">
-        <div class="md:col-start-1 md:col-span-1 p-10 grid">
-            <h3 class="text-4xl pb-10">Looking for a new intern?</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam debitis dolorum illum sequi ea quos animi doloremque delectus nihil voluptatum, facere ad voluptatem esse necessitatibus in rem, et provident! Quisquam corporis atque voluptas at officia, vel beatae eligendi autem eaque culpa eveniet dolores minima exercitationem animi laboriosam perferendis a ad magni, itaque ea asperiores! Minima, dolores ullam. Eum, inventore impedit ma exercitationem animi laboriosam perferendis a ad magni, itaqma exercitationem animi laboriosam perferendis a ad magni, itaq?</p>
+        <div class="md:col-start-1 md:col-span-1 p-10 grid justify-center">
+            <h3 class="text-4xl pb-10 flex place-self-center">Looking for a new intern?</h3>
+            <p>Multimedia designer looking for a digital workplace. <br> If you're missing an ambitious, curious and hardworking intern/coworker, don't hesitate to send me a message. I'm sure I would love to hear from you.</p>
             <button class:active={$page.url.pathname === '/projects'}>
-                <a sveltekit:prefetch href="/projects" class="hover:underline text-black border-2 border-black place-self-center">Portfolio</a>
-              </button>
+                <a sveltekit:prefetch href="/projects" class="hover:underline text-black border-2 border-black place-self-center">Contact me here</a>
+            </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
             <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
@@ -115,3 +123,5 @@
     </section> -->
 </main>
 
+
+<Footer/>

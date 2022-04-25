@@ -3,8 +3,8 @@
       <h3>KONTAKT</h3>
       <ul>
         <li>TLF. + 45 2851 3171</li>
-        <li>PRIVAT EMAIL <a href="mailto:emiliefdhansen@hotmail.com">emiliefdhansen@hotmail.com</a></li>
-        <li>SKOLE EMAIL <a href="mailto:emil609u@stud.kea.dk">emil609u@stud.kea.com</a></li>
+        <li>PRIVATE EMAIL <a href="mailto:emiliefdhansen@hotmail.com">emiliefdhansen@hotmail.com</a></li>
+        <li>SCHOOL EMAIL <a href="mailto:emil609u@stud.kea.dk">emil609u@stud.kea.com</a></li>
       </ul>
     </section>
     <section>
@@ -16,8 +16,8 @@
     <section>
       <h3>PORTFOLIO</h3>
       <ul>
-        <li>Lavet af Emilie Fischer</li>
-        <li>Bygget i Tailwind CSS og SvelteKit</li>
+        <li>Made by Emilie Fischer</li>
+        <li>Build in Tailwind CSS og SvelteKit</li>
       </ul>
     </section>
   </footer>

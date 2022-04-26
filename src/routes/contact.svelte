@@ -18,7 +18,7 @@ import Button from "./Button.svelte";
      
     </div>
     <div
-      class="max-w-screen-xl px-8 md:px-0 grid gap-8 grid-cols-1 md:grid-cols-2 py-16 mx-auto bg-gray-100 text-gray-900">
+      class="max-w-screen-xl px-8 md:px-0 grid gap-8 grid-cols-1 md:grid-cols-2 py-16 mx-auto text-gray-900">
       <div class="flex flex-col">
         <div>
           <h2 class="text-4xl lg:text-5xl leading-tight pb-9">Lets talk about everything!</h2>

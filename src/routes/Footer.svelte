@@ -1,20 +1,32 @@
 <footer>
     <section>
-      <h3>KONTAKT</h3>
+      <h3 class="font-bold text-2xl tracking-widest pb-6 pt-3">KONTAKT</h3>
       <ul>
-        <li>TLF. + 45 2851 3171</li>
-        <li>PRIVATE EMAIL <a href="mailto:emiliefdhansen@hotmail.com">emiliefdhansen@hotmail.com</a></li>
-        <li>SCHOOL EMAIL <a href="mailto:emil609u@stud.kea.dk">emil609u@stud.kea.com</a></li>
+        <div class="flex pb-4">
+          <a href="sms:(+45)(28513171)"><img class="h-[2rem] pr-3" src="phone.svg" alt=""></a>
+          <p>+45 28 51 31 71</p>
+        </div>
+        <div class="flex">
+          <a href="mailto:emiliefdhansen@hotmail.com"><img class="h-[2rem] pr-3" src="mail.svg" alt=""></a>
+          <p>emiliefdhansen@hotmail.com</p>
+        </div>
       </ul>
     </section>
     <section>
-      <h3>SOCIAL</h3>
-      <ul>
-        <li>LinkedIn</li>
-      </ul>
+      <div class="grid place-items-center">
+      <h3 class="font-bold text-2xl tracking-widest pb-6 pt-3">SOCIAL</h3>
+        <div class="flex gap-5">
+          <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank"><img class="h-[4rem]" src="linked.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank"><img class="h-[4rem]" src="instagram.svg" alt=""></a>
+        </div>
+        </div>
+      <!-- <ul>
+        <li><img src="linked.svg" alt=""></li>
+        <li><img src="instagram.svg" alt=""></li>
+      </ul> -->
     </section>
     <section>
-      <h3>PORTFOLIO</h3>
+      <h3 class="font-bold text-2xl tracking-widest pb-6 pt-3">PORTFOLIO</h3>
       <ul>
         <li>Made by Emilie Fischer</li>
         <li>Build in Tailwind CSS og SvelteKit</li>

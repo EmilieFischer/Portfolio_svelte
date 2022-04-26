@@ -3,6 +3,7 @@
     import Header from "./Header.svelte";
     import { page } from '$app/stores';
     import Kompetencer from "./Allekompetencer.svelte";
+    import Evner from "./Evner.svelte";
 </script>
 
 <Header title="ABOUT ME"/>
@@ -19,6 +20,10 @@
             <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
         </div>
     </section>
+    <div class="grid pt-20 pb-20 bg-blue-800">
+        <h2 class="text-6xl place-self-center">Known and used technologies</h2>
+    </div>
+    <Evner/>
 
     <div class="grid pt-20 pb-10">
         <h2 class="text-6xl place-self-center">Kompetencer</h2>

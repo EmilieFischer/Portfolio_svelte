@@ -31,22 +31,34 @@
 
     <section class="grid md:grid-cols-3 md:grid-rows-2">
         <div>
-            <img class="bg-red-200" src="bagerensbroed.png" alt="">
+            <Card url="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" src="bagerensbroed.png" color="red-200" title="Bagerens Brød - Game" text="1st semester project"/>
+
+            <!-- <img class="bg-red-200" src="bagerensbroed.png" alt=""> -->
         </div>
         <div>
-            <img class="bg-blue-200"  src="dolah.png" alt="">
+            <Card url="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" src="dolah.png" color="blue-200" title="Do Lah Soap Bars" text="1st semester project"/>
+
+            <!-- <img class="bg-blue-200"  src="dolah.png" alt=""> -->
         </div>
         <div>
-            <img class="bg-green-200"  src="musikloftet.png" alt="">
+            <Card url="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" src="musikloftet.png" color="green-200" title="Musikloftet.dk" text="1st semester project"/>
+
+            <!-- <img class="bg-green-200"  src="musikloftet.png" alt=""> -->
         </div>
         <div>
-            <img class="bg-yellow-200"  src="skolemad.png" alt="">
+            <Card url="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" src="skolemad.png" color="yellow-200" title="Skolemad.dk" text="1st semester project"/>
+
+            <!-- <img class="bg-yellow-200"  src="skolemad.png" alt=""> -->
         </div>
         <div>
-            <img class="bg-purple-200"  src="ungdomsbyen.png" alt="">
+                <Card url="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" src="ungdomsbyen.png" color="purple-200" title="Ungdomsbyen.dk" text="1st semester project"/>
+
+            <!-- <img class="bg-purple-200"  src="ungdomsbyen.png" alt=""> -->
         </div>
         <div>
-            <img class="bg-orange-200"  src="crazyfont.png" alt="">
+            <Card url="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" src="crazyfont.png" color="orange-200" title="Crazy Font" text="1st semester project"/>
+
+            <!-- <img class="bg-orange-200"  src="crazyfont.png" alt=""> -->
         </div>
     </section>
 

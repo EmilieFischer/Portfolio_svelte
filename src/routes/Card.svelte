@@ -2,18 +2,21 @@
     export let src;
     export let title;
     export let text;
+    export let color;
+    export let url;
 
 </script>
 
-<section id="card_projects" class="h-96 w-96 bg-gray-700 mb-9">
-    <img class="block" src={src} alt="">
+<section id="card_projects">
+    <a href={url} target="_blank">
+    <img class="block bg-{color}" src={src} alt="">
     <div class="overlay">
         <div class="text-overlay">
             <h4>{title}</h4>
             <div class="overlay_underline"></div>
             <p class="overlay-text-description">{text}</p>
         </div>
-    </div>
+    </div></a>
 </section>
 
 <style>
@@ -38,6 +41,8 @@ img {
     width: 100%;
     height: auto;
 }
+
+
 
 .overlay {
     position: absolute;

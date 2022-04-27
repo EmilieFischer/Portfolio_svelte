@@ -3,63 +3,63 @@
 <section class="grid grid-cols-2 md:grid-cols-3 place-items-center">
     
     <div class="grid place-items-center h-full w-full bg-pink-400 p-7">
-        <img src="html.svg" alt="">
+        <img src="html.svg" alt="HTML logo">
         <p>HTML</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-blue-400 p-7">
-        <img src="css.svg" alt="">
+        <img src="css.svg" alt=" CSS logo">
         <p>CSS</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-green-200 p-7">
-        <img class="pb-3" src="java.svg" alt="">
+        <img class="pb-3" src="java.svg" alt=" Javascript logo">
         <p>JAVASCRIPT</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-yellow-200 p-7">
-        <img src="tailwind.svg" alt="">
+        <img src="tailwind.svg" alt=" Tailwind CSS logo">
         <p>TAILWIND CSS</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-purple-200 p-7">
-        <img src="Svelte.svg" alt="">
+        <img src="Svelte.svg" alt="Svelte logo">
         <p>SVELTE</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-orange-200 p-7">
-        <img src="netlify.svg" alt="">
+        <img src="netlify.svg" alt="Netlify logo">
         <p>NETLIFY</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-green-200 p-7">
-        <img src="github.svg" alt="">
+        <img src="github.svg" alt="Github logo">
         <p>GITHUB</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-red-200 p-7">
-        <img src="wordpress.svg" alt="">
+        <img src="wordpress.svg" alt="Wordpress logo">
         <p>WORDPRESS</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-yellow-200 p-7">
-        <img src="figma.svg" alt="">
+        <img src="figma.svg" alt="Figma logo">
         <p>FIGMA</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-blue-400 p-7">
-        <img src="creativecloud.svg" alt="">
+        <img src="creativecloud.svg" alt="Creative Cloud logo">
         <p>CREATIVE CLOUD</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-orange-200 p-7">
-        <img src="adobexd.svg" alt="">
+        <img src="adobexd.svg" alt="Adobe XD logo">
         <p>ADOBE XD</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-pink-400 p-7">
-        <img src="adobeai.svg" alt="">
+        <img src="adobeai.svg" alt="Adobe Illustrator logo">
         <p>ADOBE ILLUSTRATOR</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-purple-400 p-7">
-        <img src="adobeps.svg" alt="">
+        <img src="adobeps.svg" alt="Adobe Photoshop logo">
         <p>ADOBE PHOTOSHOP</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-green-200 p-7">
-        <img src="adobeae.svg" alt="">
+        <img src="adobeae.svg" alt="Adobe After Effects logo">
         <p>ADOBE AFTER EFFECTS</p>
     </div>
     <div class="grid place-items-center h-full w-full bg-purple-200 p-7">
-        <img src="adobepr.svg" alt="">
+        <img src="adobepr.svg" alt="Adobe Premiere Pro logo">
         <p>ADOBE PREMIERE PRO</p>
     </div>
 </section>

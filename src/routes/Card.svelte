@@ -9,7 +9,7 @@
 
 <section id="card_projects">
     <a href={url} target="_blank">
-    <img class="block bg-{color}" src={src} alt="">
+    <img class="block bg-{color}" src={src} alt="project_picture">
     <div class="overlay">
         <div class="text-overlay">
             <h4>{title}</h4>

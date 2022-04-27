@@ -11,7 +11,6 @@
     <section class="md:grid md:grid-cols-2 md:p-20 p-4">
         <div class="md:col-start-1 md:col-span-1 p-4">
             <h3 class="text-[7rem] pb-8">Hi!</h3>
-            <img src="pil.png" alt="">
             <p class="text-4xl pb-10">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
             <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital design student my main focus is to create and design digital solutions based on both user experience and user interface. However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript. </p>
             <p>As a person I'm curious and interested in all the different aspects of creating digital solutions together with other creative minds, which makes being a multimedia design student a very exciting and interesting study!</p>
@@ -19,7 +18,7 @@
             <p>I hope you will enjoy!</p>
         </div>
         <div class="md:col-start-2 md:col-span-1 grid justify-center">
-            <img class="w-64 h-auto md:h-[710px] md:w-[710px] p-4" src="kvadrat.jpg" alt="">
+            <img class="w-64 h-auto md:h-[710px] md:w-[710px] p-4" src="kvadrat.jpg" alt="profilbillede">
             <Button buttontext="Want to know me a little bit more?"/>
         </div>
     </section>
@@ -99,17 +98,17 @@
         <div class="md:flex md:gap-80 md:mb-10">
         <div class="grid place-items-center pb-16">
             <a href="sms:(+45)(28513171)">
-            <img class="h-[3.9rem]" src="phone.svg" alt=""></a>
+            <img class="h-[3.9rem]" src="phone.svg" alt="telephone icon"></a>
             <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">+45 28 51 31 71</p>
         </div> 
         <div class="grid place-items-center pb-16">
-           <a href="mailto:emiliefdhansen@hotmail.com"><img class="h-[3.9rem]" src="mail.svg" alt=""></a>
+           <a href="mailto:emiliefdhansen@hotmail.com"><img class="h-[3.9rem]" src="mail.svg" alt="mail icon"></a>
             <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">emiliefdhansen@hotmail.com</p>
 
 
         </div> 
         <div class="grid place-items-center pb-16">
-            <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank"><img class="h-[4rem]" src="linked.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank"><img class="h-[4rem]" src="linked.svg" alt="linkedin icon"></a>
             <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">LinkedIn</p>
         </div> 
     </div>
@@ -134,7 +133,7 @@
 
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
+            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="profilbillede">
         </div>
 
     

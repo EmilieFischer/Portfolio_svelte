@@ -17,7 +17,7 @@
               </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
+            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="profilbillede">
         </div>
     </section>
     <div class="grid pt-20 pb-20 bg-blue-800">
@@ -50,7 +50,7 @@
               </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
+            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="profilbillede">
         </div>
     </section>
 
@@ -63,7 +63,7 @@
               </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="">
+            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="profilbillede">
         </div>
     </section>
 

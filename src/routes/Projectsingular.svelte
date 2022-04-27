@@ -29,29 +29,29 @@
             <div class="flex">
             <div class="pr-28">
                 <li class="flex pb-4 items-center">
-                    <img class="pr-3" src="tools.svg" alt="">
+                    <img class="pr-3" src="tools.svg" alt="tools icon">
                     <p>{redskab1}</p>
                 </li>
                 <li class="flex pb-4 items-center">
-                    <img class="pr-3" src="tools.svg" alt="">
+                    <img class="pr-3" src="tools.svg" alt="tools icon">
                     <p>{redskab2}</p>
                 </li>
                 <li class="flex items-center">
-                    <img class="pr-3" src="tools.svg" alt="">
+                    <img class="pr-3" src="tools.svg" alt="tools icon">
                     <p>{redskab3}</p>
                 </li>
             </div>
             <div class="pr-14 md:pr-0">
                 <li class="flex pb-4 items-center">
-                    <img class="pr-3" src="tools.svg" alt="">
+                    <img class="pr-3" src="tools.svg" alt="tools icon">
                     <p>{redskab4}</p>
                 </li>
                 <li class="flex pb-4 items-center">
-                    <img class="pr-3" src="tools.svg" alt="">
+                    <img class="pr-3" src="tools.svg" alt="tools icon">
                     <p>{redskab5}</p>
                 </li>
                 <li class="flex">
-                    <img class="pr-3 items-center" src="tools.svg" alt="">
+                    <img class="pr-3 items-center" src="tools.svg" alt="tools icon">
                     <p>{redskab6}</p>
                 </li>
             </div>
@@ -59,7 +59,7 @@
         </div>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img {src} class="w-auto" alt="">
+            <img {src} class="w-auto" alt="project_picture">
             <Button buttontext="Se website"/>
 
         </div>

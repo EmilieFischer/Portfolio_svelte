@@ -48,16 +48,16 @@ import Button from "./Button.svelte";
     
     </div>
     <div class="grid place-content-center">
-        <img class="h-[26rem] mb-5" src="kvadrat.jpg" alt="">
+        <img class="h-[26rem] mb-5" src="kvadrat.jpg" alt="profilbillede">
         <div class="md:col-start-1 md:col-span-1">
             <ul class="flex justify-between">
                 <div>
             <li class="flex pb-4">
-                <img src="kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="coffee icon">
                 <p>+45 2851 3171</p>
             </li>
             <li class="flex pb-4">
-                <img src="kaffe.svg" alt="">
+                <img src="kaffe.svg" alt="coffee icon">
                 <p>emiliefdhansen@hotmail.com</p>
             </li>
         </div>

@@ -13,10 +13,10 @@
 
 
   <style>
-      .buttons-coll {
+      /* .buttons-coll {
   width: 90%;
   text-align: center;
-}
+} */
 
 button {
   margin: 20px;

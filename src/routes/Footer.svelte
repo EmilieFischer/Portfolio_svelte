@@ -4,11 +4,11 @@
       <ul>
         <div class="flex pb-4">
           <a href="sms:(+45)(28513171)"><img class="h-[2rem] pr-3" src="phone.svg" alt="telephone icon"></a>
-          <p>+45 28 51 31 71</p>
+          <p class="text-[#F0E8CD]">+45 28 51 31 71</p>
         </div>
         <div class="flex">
           <a href="mailto:emiliefdhansen@hotmail.com"><img class="h-[2rem] pr-3" src="mail.svg" alt="mail icon"></a>
-          <p>emiliefdhansen@hotmail.com</p>
+          <p class="text-[#F0E8CD]">emiliefdhansen@hotmail.com</p>
         </div>
       </ul>
     </section>
@@ -28,8 +28,8 @@
     <section>
       <h3 class="font-bold text-2xl tracking-widest pb-6 pt-3">PORTFOLIO</h3>
       <ul>
-        <li>Made by Emilie Fischer</li>
-        <li>Build in Tailwind CSS og SvelteKit</li>
+        <li class="text-[#F0E8CD]">Made by Emilie Fischer</li>
+        <li class="text-[#F0E8CD]">Build in Tailwind CSS og SvelteKit</li>
       </ul>
     </section>
   </footer>
@@ -49,6 +49,7 @@
     }
     h3 {
       color: var( --h3-footer-color);
+      font-family: 'BiauKai';
     }
     @media (min-width: 600px) {
       footer {
@@ -58,5 +59,7 @@
       section {
         justify-self: center;
       }
+
+    
     }
   </style>

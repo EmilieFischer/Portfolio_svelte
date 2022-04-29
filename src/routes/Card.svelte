@@ -12,26 +12,29 @@
     <img class="block bg-{color}" src={src} alt="project_picture">
     <div class="overlay">
         <div class="text-overlay">
-            <h4>{title}</h4>
+            <h4 class="text-4xl">{title}</h4>
             <div class="overlay_underline"></div>
-            <p class="overlay-text-description">{text}</p>
+            <!-- <p class="overlay-text-description">{text}</p> -->
         </div>
     </div></a>
 </section>
 
 <style>
+h4 {
+    font-family: 'BiauKai';
+}
 .overlay-text-description {
-    font-size: 65%;
     line-height: 1.5;
 }
 .overlay_underline {
     display: block;
     border-radius: 10%;
     width: 75px;
-    border: 2px solid;
+    border: 1px solid;
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
 #card_projects {
     position: relative;
 }
@@ -59,9 +62,8 @@ img {
 
 .text-overlay {
     color: #000000;
-    font-size: 20px;
     position: absolute;
-    top: 13%;
+    top: 5%;
     left: 8%;
     max-width: 100%;
     margin-right: 12px;
@@ -70,6 +72,20 @@ img {
 #card_projects:hover .overlay {
     opacity: 0.9;
 }
+
+/* .slide-right {
+	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-right {
+  0% {
+            transform: translateX(0);
+  }
+  100% {
+            transform: translateX(100px);
+  }
+} */
+
 
 </style>
 

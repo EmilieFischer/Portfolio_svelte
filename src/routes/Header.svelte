@@ -71,7 +71,7 @@ function toggleMobileMenu() {
 
   <header>
 
-    <section id="hero-section" class="bg-red-200 h-screen grid"> 
+    <section id="hero-section" class="bg-[#A6A396] h-screen grid"> 
       <div class="grid place-items-center relative">
         <h1 class="absolute inset-x-auto bottom-6">{title}</h1>
       </div>

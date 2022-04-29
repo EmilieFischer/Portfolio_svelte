@@ -9,7 +9,7 @@
 <Header title="MY PORTFOLIO"/>
 <main>
     <div class="grid pt-20 pb-10">
-        <h2 class="text-6xl place-self-center">My Projects</h2>
+        <h2 class="text-6xl place-self-center biaukai mb-10">My Projects</h2>
     </div>
   
    <div class="grid place-content-center">
@@ -17,26 +17,26 @@
             <div>
                 <ul class="flex place-self-center gap-20 md:mr-20 mb-10 md:mb-0">
                     <li class:active={$page.url.pathname === '/projects'}>
-                    <a sveltekit:prefetch href="/projects" class="hover:underline text-black">Project 1</a>
+                    <a sveltekit:prefetch href="/projects" class=" text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">01</a>
                     </li>
                     <li class:active={$page.url.pathname === '/about'}>
-                    <a sveltekit:prefetch href="/about" class="hover:underline text-black">Project 2</a>
+                    <a sveltekit:prefetch href="/about" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">02</a>
                     </li>
                     <li class:active={$page.url.pathname === '/contact'}>
-                    <a sveltekit:prefetch href="/contact" class="hover:underline text-black">Project 3</a>
+                    <a sveltekit:prefetch href="/contact" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">03</a>
                     </li>
                 </ul>
             </div>
             <div>
                 <ul class="flex place-self-center gap-20">
                     <li class:active={$page.url.pathname === '/projects'}>
-                    <a sveltekit:prefetch href="/projects" class="hover:underline text-black">Project 4</a>
+                    <a sveltekit:prefetch href="/projects" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">04</a>
                     </li>
                     <li class:active={$page.url.pathname === '/about'}>
-                    <a sveltekit:prefetch href="/about" class="hover:underline text-black">Project 5</a>
+                    <a sveltekit:prefetch href="/about" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">05</a>
                     </li>
                     <li class:active={$page.url.pathname === '/contact'}>
-                    <a sveltekit:prefetch href="/contact" class="hover:underline text-black">Project 6</a>
+                    <a sveltekit:prefetch href="/contact" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">06</a>
                     </li>
                 </ul>
             </div>
@@ -64,3 +64,9 @@
 </main>
 
 <Footer/>
+
+<style>
+    .biaukai {
+        font-family: 'BiauKai';
+    }
+</style>

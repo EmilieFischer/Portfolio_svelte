@@ -20,8 +20,10 @@
             <img class="h-96 w-auto"  src="kvadrat.jpg" alt="profilbillede">
         </div>
     </section>
-    <div class="grid pt-20 pb-20 bg-blue-800">
-        <h2 class="text-6xl place-self-center">Known and used technologies</h2>
+
+
+    <div class="grid pt-20 pb-20 bg-[#3E4237]">
+        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi">Known and used technologies</h2>
     </div>
     <Evner/>
 
@@ -43,7 +45,7 @@
 
     <section class="md:grid md:grid-cols-2 bg-cyan-100 p-10">
         <div class="md:col-start-1 md:col-span-1 p-10 grid">
-            <h3 class="text-4xl pb-10">Looking for a new intern?</h3>
+            <h3 class="text-4xl pb-10">Personal intrests</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam debitis dolorum illum sequi ea quos animi doloremque delectus nihil voluptatum, facere ad voluptatem esse necessitatibus in rem, et provident! Quisquam corporis atque voluptas at officia, vel beatae eligendi autem eaque culpa eveniet dolores minima exercitationem animi laboriosam perferendis a ad magni, itaque ea asperiores! Minima, dolores ullam. Eum, inventore impedit ma exercitationem animi laboriosam perferendis a ad magni, itaqma exercitationem animi laboriosam perferendis a ad magni, itaq?</p>
             <button class:active={$page.url.pathname === '/projects'}>
                 <a sveltekit:prefetch href="/projects" class="hover:underline text-black border-2 border-black place-self-center">Portfolio</a>

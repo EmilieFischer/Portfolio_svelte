@@ -19,8 +19,8 @@
 
 
 <section class="relative">
-    <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-6rem] md:left-[85%] left-[70%]">{projektnummer}</p>
-    <div class="md:grid md:grid-cols-2 bg-slate-200 md:p-10">
+    <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-6rem] md:left-[85%] left-[70%] biaukai">{projektnummer}</p>
+    <div class="md:grid md:grid-cols-2 bg-[#A6A396] md:p-10">
         <div class="p-6">
         <h2 class="md:p-10 pb-5 text-5xl">{project_name}</h2>
         <div class="md:col-start-1 pb-5 md:col-span-1 md:pl-10">
@@ -112,3 +112,10 @@
         </div>
     </div> -->
 </section>
+
+
+<style>
+    .biaukai {
+        font-family: 'BiauKai';
+    }
+</style>

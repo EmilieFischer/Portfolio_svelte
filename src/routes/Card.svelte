@@ -1,7 +1,6 @@
 <script>
     export let src;
     export let title;
-    export let text;
     export let color;
     export let url;
 
@@ -18,6 +17,9 @@
         </div>
     </div></a>
 </section>
+
+
+
 
 <style>
 h4 {

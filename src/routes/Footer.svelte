@@ -1,8 +1,8 @@
 <footer>
-    <section>
+    <section class="grid place-items-center">
       <h3 class="font-bold text-2xl tracking-widest pb-6 pt-3">KONTAKT</h3>
       <ul>
-        <div class="flex pb-4">
+        <div class="flex pb-4 ">
           <a href="sms:(+45)(28513171)"><img class="h-[2rem] pr-3" src="phone.svg" alt="telephone icon"></a>
           <p class="text-[#F0E8CD]">+45 28 51 31 71</p>
         </div>

@@ -13,12 +13,13 @@
     export let programmer;
     export let projektnummer;
     export let src;
+    export let nummeret;
 
 </script>
 
 
 
-<section class="relative">
+<section id={`p${nummeret}`} class="relative">
     <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-6rem] md:left-[85%] left-[70%] biaukai">{projektnummer}</p>
     <div class="md:grid md:grid-cols-2 bg-[#A6A396] md:p-10">
         <div class="p-6">

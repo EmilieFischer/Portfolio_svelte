@@ -31,11 +31,9 @@
         <div class="md:col-start-1 md:col-span-1 p-10 grid">
             <h3 class="text-4xl pb-10">The protagonist</h3>
             <p>"Protagonists (ENFJs) are warm, idealistic, charismatic, creative, and social. With this wind at their backs, these types can thrive in many diverse roles, at any level of seniority. Moreover, they are generally likable and good-natured – qualities that can propel them to success wherever they have a chance to work with others."</p>
-            <p>"Protagonists (ENFJs) are warm, idealistic, charismatic, creative, and social. With this wind at their backs, these types can thrive in many diverse roles, at any level of seniority. Moreover, they are generally likable and good-natured – qualities that can propel them to success wherever they have a chance to work with others."</p>
+            <p>"As colleagues, Protagonists stand out for their desire to collaborate. They are always on the lookout for opportunities to create win-win situations and help their coworkers reach their full potential. These personalities foster equitable team environments where everyone – whatever their job title – can feel comfortable expressing their opinions and ideas."</p>
+            <Button buttontext="Visit the website"/>
 
-            <button class:active={$page.url.pathname === '/projects'}>
-                <a sveltekit:prefetch href="/projects" class="hover:underline text-black border-2 border-black place-self-center">Portfolio</a>
-              </button>
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
             <img class="h-96 w-auto"  src="kvadrat.jpg" alt="profilbillede">

@@ -14,18 +14,19 @@
             <p class="biaukai text-4xl pb-10">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
             <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital design student my main focus is to create and design digital solutions based on both user experience (UX) and user interface (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
             <p class="pt-5">As a person I'm curious and interested in all the different aspects of creating digital solutions together with other creative minds, which makes being a multimedia design student a very exciting and interesting study!</p>
-            <p>If you look below you will find a little selection of some of my work and projects that I've done at KEA. Each project is a link, so if you click you will be led on to more information about each project.</p>
-            <p class="pt-5">I hope you will enjoy!</p>
+            
         </article>
         <div class="md:col-start-2 md:col-span-1 grid justify-items-center">
-            <img class="h-auto md:w-[610px] p-2 border-8 border-[#9B533F]" src="kvadrat.jpg" alt="profilbillede">
+            <img class="h-auto md:w-[450px] p-2 border-8 border-[#9B533F]" src="profil-sh.png" alt="profilbillede">
             <Button buttontext="Want to know me a little bit more?"/>
         </div>
     </section>
 
 
     <div class="grid pt-20 pb-20 bg-[#3E4237]">
-        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi biaukai">Some of my projects</h2>
+        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi biaukai pb-10">Some of my projects</h2>
+        <p class="text-center text-[#F0E8CD]">If you look below you will find a little selection of some of my work and projects that I've done at KEA. <br> Each project is a link, so if you click you will be led on to more information about the project.</p>
+        <p class="pt-5 text-center text-[#F0E8CD]">I hope you will enjoy!</p>
     </div>
 
     <section class="grid md:grid-cols-3 md:grid-rows-2 gap-2 m-2">
@@ -71,7 +72,7 @@
         </div>
         </article>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto border-8 p-2 border-[#9B533F]"  src="kvadrat.jpg" alt="profilbillede">
+            <img class="h-96 w-auto border-8 p-2 border-[#9B533F]"  src="prof2.jpg" alt="profilbillede">
         </div>
 
     

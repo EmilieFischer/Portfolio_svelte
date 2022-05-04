@@ -36,8 +36,8 @@ button {
 
 .btn-4 {
   width: 20rem;
-  height: 40px;
-  line-height: 42px;
+  height: 60px;
+  line-height: 70px;
   padding: 0;
   border: none;
 }
@@ -45,7 +45,7 @@ button {
   position: relative;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 112%;
 }
 .btn-4:before,
 .btn-4:after {
@@ -53,16 +53,16 @@ button {
   content: "";
   right: 0;
   top: 0;
-  background: #000;
+  background: #9B533F;
   transition: all 0.3s ease;
 }
 .btn-4:before {
   height: 50%;
-  width: 2px;
+  width: 8px;
 }
 .btn-4:after {
   width: 20%;
-  height: 2px;
+  height: 8px;
 }
 .btn-4:hover:before {
   height: 100%;
@@ -76,16 +76,16 @@ button {
   content: "";
   left: 0;
   bottom: 0;
-  background: #000;
+  background: #9B533F;
   transition: all 0.3s ease;
 }
 .btn-4 span:before {
-  width: 2px;
+  width: 8px;
   height: 50%;
 }
 .btn-4 span:after {
   width: 20%;
-  height: 2px;
+  height: 8px;
 }
 .btn-4 span:hover:before {
   height: 100%;

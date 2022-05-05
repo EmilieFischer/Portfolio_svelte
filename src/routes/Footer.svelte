@@ -1,6 +1,6 @@
 <footer>
     <article>
-      <h3 class="font-bold text-2xl tracking-widest pb-6 pt-3">CONTACT</h3>
+      <h3 class="font-bold text-2xl tracking-widest pb-10 pt-3">CONTACT</h3>
       <ul>
         <div class="flex pb-4 ">
           <a href="sms:(+45)(28513171)"><img class="h-[2rem] pr-3" src="phone.svg" alt="telephone icon"></a>
@@ -14,7 +14,7 @@
     </article>
     <article>
       <div class="grid place-items-center">
-      <h3 class="font-bold text-2xl tracking-widest pb-6 pt-3">SOCIAL</h3>
+      <h3 class="font-bold text-2xl tracking-widest pb-10 pt-3">SOCIAL</h3>
         <div class="flex gap-28 md:gap-4">
           <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank"><img class="h-[4rem]" src="linked.svg" alt="linkedin icon"></a>
           <a href="https://www.instagram.com/emiliefischer/" target="_blank"><img class="h-[4rem]" src="instagram.svg" alt="instagram icon"></a>
@@ -22,7 +22,7 @@
       </div>
     </article>
     <article>
-      <h3 class="font-bold text-2xl tracking-widest pb-6 pt-3">PORTFOLIO</h3>
+      <h3 class="font-bold text-2xl tracking-widest pb-10 pt-3">PORTFOLIO</h3>
       <ul>
         <li class="text-[#F0E8CD]">Made by Emilie Fischer</li>
         <li class="text-[#F0E8CD]">Build in Tailwind CSS og SvelteKit</li>
@@ -35,6 +35,10 @@
       background: var(--footer-background);
       color: var(--primary-font-color);
       padding: 1rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+
+      margin-top: 2rem;
     }
     li {
       list-style: none;

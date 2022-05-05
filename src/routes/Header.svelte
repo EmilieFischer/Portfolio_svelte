@@ -83,20 +83,20 @@ function toggleMobileMenu() {
     <section id="navigation" class="justify-between absolute top-0 w-full">
     <div id="brand" class:active={$page.url.pathname === '/'}>
       <a sveltekit:prefetch href="/">
-          <img class="h-16" src="logo.svg" alt="logo">
+          <img class="h-20" src="logo.svg" alt="logo">
       </a>
     </div>
     <nav>
       <ul>
         <li class:active={$page.url.pathname === '/projects'}>
-          <a sveltekit:prefetch href="/projects" class="hover:underline text-black">My work</a>
+          <a sveltekit:prefetch href="/projects" class="hover:underline text-black text-lg tracking-wider uppercase">My work</a>
         </li>
           <li class:active={$page.url.pathname === '/about'}>
-      <a sveltekit:prefetch href="/about" class="hover:underline text-black">Get to know me</a>
+      <a sveltekit:prefetch href="/about" class="hover:underline text-black text-lg tracking-wider	uppercase">Get to know me</a>
     </li>
            
           <li class:active={$page.url.pathname === '/contact'}>
-      <a sveltekit:prefetch href="/contact" class="hover:underline text-black">Contact</a>
+      <a sveltekit:prefetch href="/contact" class="hover:underline text-black text-lg tracking-wider uppercase">Contact</a>
     </li>
       </ul>
     </nav>

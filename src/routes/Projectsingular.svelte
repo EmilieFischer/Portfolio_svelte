@@ -23,10 +23,10 @@
     <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-6rem] md:left-[85%] left-[70%] biaukai">{projektnummer}</p>
     <div class="md:grid md:grid-cols-2 bg-[#A6A396] md:p-10">
         <div class="p-6">
-        <h2 class="md:p-10 pb-5 text-5xl">{project_name}</h2>
+        <h2 class="md:p-10 pb-5 text-5xl biaukai">{project_name}</h2>
         <div class="md:col-start-1 pb-5 md:col-span-1 md:pl-10">
             <p>{text_project}</p>
-            <h3 class="text-3xl pb-10  pt-16 md:pt-10">{programmer}</h3>
+            <h3 class="text-3xl pb-10  pt-16 md:pt-10 biaukai">{programmer}</h3>
             <div class="flex">
             <div class="pr-28">
                 <li class="flex pb-4 items-center">

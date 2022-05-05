@@ -25,18 +25,17 @@
     </section>
 
     <div class="grid pt-20 pb-20 bg-[#3E4237]">
-        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi">Who am I according to: 16personalities.com</h2>
+        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi">Who am I according to: <br> 16personalities.com</h2>
     </div>
     <section class="md:grid md:grid-cols-2 p-10">
         <div class="md:col-start-1 md:col-span-1 p-10 grid">
-            <h3 class="text-4xl pb-10">The protagonist</h3>
-            <p>"Protagonists (ENFJs) are warm, idealistic, charismatic, creative, and social. With this wind at their backs, these types can thrive in many diverse roles, at any level of seniority. Moreover, they are generally likable and good-natured – qualities that can propel them to success wherever they have a chance to work with others."</p>
+            <h3 class=" text-[3rem] pb-10 biaukai ">The protagonist</h3>
+            <p class="pb-10">"Protagonists (ENFJs) are warm, idealistic, charismatic, creative, and social. With this wind at their backs, these types can thrive in many diverse roles, at any level of seniority. Moreover, they are generally likable and good-natured – qualities that can propel them to success wherever they have a chance to work with others."</p>
             <p>"As colleagues, Protagonists stand out for their desire to collaborate. They are always on the lookout for opportunities to create win-win situations and help their coworkers reach their full potential. These personalities foster equitable team environments where everyone – whatever their job title – can feel comfortable expressing their opinions and ideas."</p>
-            <Button buttontext="Visit the website"/>
 
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto"  src="kvadrat.jpg" alt="profilbillede">
+            <img class="h-[50rem] w-auto"  src="scale.svg" alt="profilbillede">
         </div>
     </section>
 
@@ -45,7 +44,7 @@
     </div>
     <Evner/>
 
-    <section class="grid bg-[#9B533F] h-auto place-items-center">
+    <!-- <section class="grid bg-[#9B533F] h-auto place-items-center">
         <article class="grid place-items-center mt-10 mb-10">
         <h3 class="text-6xl pb-9 p-2 text-center h3_hi">What am I looking for <br> in my future internship?</h3>
         <div class="flex">
@@ -71,12 +70,12 @@
                 <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">LinkedIn</p>
             </div> 
         </article>
-    </section>
+    </section> -->
 
-    <div class="grid pt-20 pb-10">
+    <!-- <div class="grid pt-20 pb-10">
         <h2 class="text-6xl place-self-center">A short resume of which things I've been working with at KEA</h2>
-        </div>
-    <section class="grid md:place-content-center">
+        </div> -->
+    <!-- <section class="grid md:place-content-center">
     <div class="md:flex">
         <Kompetencer img_kompetence="kaffe.svg" title_kompetence="Teamwork" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
         <Kompetencer img_kompetence="kaffe.svg" title_kompetence="Web development" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
@@ -87,7 +86,7 @@
         <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
         <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
     </div>
-    </section>
+    </section> -->
 
 
     

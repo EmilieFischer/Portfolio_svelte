@@ -30,11 +30,11 @@ h4 {
 }
 .overlay_underline {
     display: block;
-    border-radius: 10%;
     width: 75px;
-    border: 1px solid;
+    border: 1.5px solid;
     margin-top: 10px;
     margin-bottom: 15px;
+    color: #9B533F;
 }
 
 #card_projects {

@@ -17,7 +17,7 @@
             
         </article>
         <div class="md:col-start-2 md:col-span-1 grid justify-items-center">
-            <img class="h-auto md:w-[450px] p-2 border-8 border-[#9B533F]" src="profil-sh.png" alt="profilbillede">
+            <img class="h-auto md:w-[450px] p-2 border-4 border-[#9B533F]" src="profil-sh.png" alt="profilbillede">
             <Button buttontext="Want to know me a little bit more?"/>
         </div>
     </section>
@@ -26,7 +26,7 @@
     <div class="grid pt-20 pb-20 bg-[#3E4237]">
         <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi biaukai pb-10">Some of my projects</h2>
         <p class="text-center text-[#F0E8CD]">If you look below you will find a little selection of some of my work and projects that I've done at KEA. <br> Each project is a link, so if you click you will be led on to more information about the project.</p>
-        <p class="pt-5 text-center text-[#F0E8CD]">I hope you will enjoy!</p>
+        <p class="pt-10 text-xl text-center text-[#F0E8CD]">I hope you will enjoy!</p>
     </div>
 
     <section class="grid md:grid-cols-3 md:grid-rows-2 gap-2 m-2">
@@ -37,7 +37,7 @@
             <!-- <img class="bg-red-200" src="bagerensbroed.png" alt=""> -->
         </div>
         <div>
-            <Card url="/projects#p2" src="dolah.png" color="[#A6A396]" title="Do Lah Soap Bars - 2nd semester exam"/>
+            <Card url="/projects#p2" src="dolah.png" color="[#A6A396]" title="Do Lah Soap Bars"/>
 
             <!-- <img class="bg-blue-200"  src="dolah.png" alt=""> -->
         </div>
@@ -72,7 +72,7 @@
         </div>
         </article>
         <div class="col-start-2 col-span-1 grid place-items-center">
-            <img class="h-96 w-auto border-8 p-2 border-[#9B533F]"  src="prof2.jpg" alt="profilbillede">
+            <img class="h-96 w-auto border-4 p-2 border-[#9B533F]" src="prof2.jpg" alt="profilbillede">
         </div>
 
     

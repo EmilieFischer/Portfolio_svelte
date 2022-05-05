@@ -58,14 +58,14 @@ button {
 }
 .btn-4:before {
   height: 50%;
-  width: 8px;
+  width: 4px;
 }
 .btn-4:after {
   width: 20%;
-  height: 8px;
+  height: 4px;
 }
 .btn-4:hover:before {
-  height: 100%;
+  height: 112%;
 }
 .btn-4:hover:after {
   width: 100%;
@@ -80,12 +80,12 @@ button {
   transition: all 0.3s ease;
 }
 .btn-4 span:before {
-  width: 8px;
+  width: 4px;
   height: 50%;
 }
 .btn-4 span:after {
-  width: 20%;
-  height: 8px;
+  width: 50%;
+  height: 4px;
 }
 .btn-4 span:hover:before {
   height: 100%;

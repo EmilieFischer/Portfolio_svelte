@@ -5,13 +5,14 @@
     import Kompetencer from "./Allekompetencer.svelte";
     import Evner from "./Evner.svelte";
     import Button from "./Button.svelte"; 
+import Header2 from "./Header2.svelte";
 </script>
 
-<Header title="ABOUT ME"/>
+<Header2/>
 <main>
     <section class="md:grid md:grid-cols-2 md:px-28 md:py-10 gap-20">
         <article class="md:col-start-1 md:col-span-1 p-4">
-            <h3 class="biaukai text-4xl pb-16 pt-10">A few words about me</h3>
+            <h3 class="biaukai text-4xl lg:text-6xl leading-tight  pb-16 pt-10">A few words about me</h3>
             <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital design student my main focus is to create and design digital solutions based on both user experience (UX) and user interface (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
             <p class="pt-5">As a person I'm curious and interested in all the different aspects of creating digital solutions together with other creative minds, which makes being a multimedia design student a very exciting and interesting study!</p>
             <p>If you look below you will find a little selection of some of my work and projects that I've done at KEA. Each project is a link, so if you click you will be led on to more information about each project.</p>
@@ -51,7 +52,7 @@
     </section>
 
     <div class="grid pt-20 pb-20 bg-[#3E4237]">
-        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi">Known and most used technologies</h2>
+        <h2 class="text-6xl text-center text-[#F0E8CD] biaukai">Known and most used technologies</h2>
     </div>
     <Evner/>
 

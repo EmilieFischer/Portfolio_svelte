@@ -3,13 +3,14 @@
     import Header from "./Header.svelte";
     import Projectsingular from "./Projectsingular.svelte";
     import { page } from '$app/stores';
+import Header2 from "./Header2.svelte";
 
     </script>
 
-<Header title="MY PORTFOLIO"/>
+<Header2/>
 <main>
-    <div class="grid pt-20 pb-20 bg-[#3E4237]">
-        <h2 class="text-6xl text-center text-[#F0E8CD] biaukai">Some of my projects</h2>
+    <div class="grid pt-20">
+        <h2 class="text-4xl lg:text-6xl leading-tight  text-center text-black biaukai">Some of my projects</h2>
     </div>
   
    <!-- <div class="grid place-content-center">

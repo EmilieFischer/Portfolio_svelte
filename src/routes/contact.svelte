@@ -2,10 +2,11 @@
 import Footer from "./Footer.svelte";
 import Header from "./Header.svelte";
 import Button from "./Button.svelte";
+import Header2 from "./Header2.svelte";
 
 </script>
 
-<Header title="CONTACT ME"/>
+<Header2/>
 <main>
  
 <!-- <div class="grid pt-20 pb-10">
@@ -20,7 +21,7 @@ import Button from "./Button.svelte";
     <div class="max-w-screen-xl px-8 md:px-0 grid gap-8 grid-cols-1 md:grid-cols-2 py-16 mx-auto">
       <div class="flex flex-col">
         <div>
-          <h2 class="text-4xl lg:text-5xl leading-tight pb-9 biaukai">Do you have something on your mind?</h2>
+          <h2 class="text-4xl lg:text-6xl leading-tight pb-9 biaukai">Do you have something on your mind?</h2>
         </div>
       <div>
         <div>

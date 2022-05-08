@@ -21,12 +21,12 @@
 
 <section id={`p${nummeret}`} class="relative">
     <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-7rem] md:left-[85%] left-[74%] biaukai">{projektnummer}</p>
-    <div class="md:grid md:grid-cols-2 bg-[#A6A396] md:p-10">
-        <div class="p-6">
-        <h2 class="md:p-10 pb-5 text-5xl pt-14 biaukai">{project_name}</h2>
-        <div class="md:col-start-1 pb-5 md:col-span-1 md:pl-10">
+    <div class="md:grid pt-10  md:pt-0 md:grid-cols-2 bg-[#3E4237] marker:p-10">
+        <div class="m-10 p-10 bg-[#F0E8CD] border-8 border-[#A6A396]">
+        <h2 class="pb-10 text-5xl biaukai">{project_name}</h2>
+        <div class="md:col-start-1 pb-5 md:col-span-1">
             <p>{text_project}</p>
-            <h3 class="text-3xl pb-10  pt-16 md:pt-10 biaukai">{programmer}</h3>
+            <h3 class="text-3xl pt-16 md:pt-10 biaukai pb-10">{programmer}</h3>
             <div class="flex">
             <div class="pr-28">
                 <li class="flex pb-4 items-center">

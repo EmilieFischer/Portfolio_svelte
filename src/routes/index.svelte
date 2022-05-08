@@ -9,24 +9,24 @@
 <Header title="PORTFOLIO"/>
 <main>
     <section class="md:grid md:grid-cols-2 md:p-28 gap-20">
-        <article class="md:col-start-1 md:col-span-1 p-4">
-            <h3 class="biaukai text-[7rem] pb-4">Hi!</h3>
+        <article class="md:col-start-1 md:col-span-1 p-6 md:p-0">
+            <h3 class="biaukai text-[6rem]">Hi!</h3>
             <p class="biaukai text-4xl pb-10">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
-            <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital design student my main focus is to create and design digital solutions based on both user experience (UX) and user interface (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
+            <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital designer my main focus is to create and design digital solutions based on both user experience (UX) and user interface (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
             <p class="pt-5">As a person I'm curious and interested in all the different aspects of creating digital solutions together with other creative minds, which makes being a multimedia design student a very exciting and interesting study!</p>
-            
+            <p>If you look below you will find a little selection of some of my work and projects that I've done at KEA. <br> Each project is a link, so if you click you will be led on to more information about the project.</p>
+            <p class="pt-5">I hope you will enjoy!</p>
+
         </article>
         <div class="md:col-start-2 md:col-span-1 grid justify-items-center">
-            <img class="h-auto md:w-[450px] p-2 border-4 border-[#9B533F]" src="profil-sh.png" alt="profilbillede">
+            <img class="h-auto md:w-[450px] w-[300px] p-2 border-4 border-[#9B533F]" src="profil-sh.png" alt="profilbillede">
             <Button buttontext="Want to know me a little bit more?"/>
         </div>
     </section>
 
 
     <div class="grid pt-20 pb-20 bg-[#3E4237]">
-        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi biaukai pb-10">Some of my projects</h2>
-        <p class="text-center text-[#F0E8CD]">If you look below you will find a little selection of some of my work and projects that I've done at KEA. <br> Each project is a link, so if you click you will be led on to more information about the project.</p>
-        <p class="pt-10 text-xl text-center text-[#F0E8CD]">I hope you will enjoy!</p>
+        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi biaukai">Some of my projects</h2>
     </div>
 
     <section class="grid md:grid-cols-3 md:grid-rows-2 gap-2 m-2">
@@ -66,7 +66,7 @@
     <section class="md:grid md:grid-cols-2 p-4 md:p-10">
         <article class="md:col-start-1 md:col-span-1 p-10 grid justify-items-center">
             <div class="grid justify-items-center">
-            <h3 class="text-4xl pb-8 text-center h3_hi">Looking for a new intern?</h3>
+            <h3 class="text-4xl pb-8 text-center biaukai">Looking for a new intern?</h3>
             <p class="text-center">I'm a multimedia design student looking for a digital internship. If you're in need of an ambitious, curious and hardworking intern/coworker, don't hesitate to send me a message. I'm sure I would love to hear from you.</p>
             <Button buttontext="Contact me here"/>
         </div>

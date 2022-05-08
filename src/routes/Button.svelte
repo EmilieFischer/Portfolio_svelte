@@ -19,7 +19,8 @@
 } */
 
 button {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .custom-btn {

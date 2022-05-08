@@ -14,42 +14,38 @@ import Button from "./Button.svelte";
 </div> -->
 
 <div>
-    <div class="text-center w-full">
+    <!-- <div class="text-center w-full">
      
-    </div>
-    <div
-      class="max-w-screen-xl px-8 md:px-0 grid gap-8 grid-cols-1 md:grid-cols-2 py-16 mx-auto ">
+    </div> -->
+    <div class="max-w-screen-xl px-8 md:px-0 grid gap-8 grid-cols-1 md:grid-cols-2 py-16 mx-auto">
       <div class="flex flex-col">
         <div>
           <h2 class="text-4xl lg:text-5xl leading-tight pb-9 biaukai">Do you have something on your mind?</h2>
-          
         </div>
-        
       <div>
         <div>
-          <span class="uppercase text-sm  font-bold">Full Name / Company</span>
-          <input class="w-full  text-gray-900 border-2  bg-[#F6F5F5] border-black mt-2 p-3 focus:outline-none focus:shadow-outline"
+          <span class="uppercase text-sm">Full Name / Company</span>
+          <input class="w-full  text-gray-900  bg-[#F0E8CD] border-4 border-[#3E4237] mt-2 p-3 focus:outline-none focus:shadow-outline"
             type="text" placeholder="">
         </div>
         <div class="mt-8">
-          <span class="uppercase text-sm  font-bold">Email</span>
-          <input class="w-full border-2 border-black mt-2 p-3 bg-[#F6F5F5]  focus:outline-none focus:shadow-outline"
+          <span class="uppercase text-sm">Email</span>
+          <input class="w-full border-4 border-[#3E4237] mt-2 p-3 bg-[#F0E8CD] focus:outline-none focus:shadow-outline"
             type="text">
         </div>
         <div class="mt-8">
-          <span class="uppercase text-sm  font-bold">Please write your message here</span>
+          <span class="uppercase text-sm">Please write your message here</span>
           <textarea
-            class="w-full h-32 border-2 border-black mt-2 p-3 bg-[#F6F5F5] focus:outline-none focus:shadow-outline"></textarea>
+            class="w-full h-32 border-4 border-[#3E4237] mt-2 p-3 bg-[#F0E8CD] focus:outline-none focus:shadow-outline"></textarea>
         </div>
-        <div class="mt-8">
+        <div class="mt-8 grid place-content-center">
           <Button buttontext="Send me a message!"/>
-
         </div>
       </div>
     
     </div>
     <div class="grid place-content-center">
-        <img class="h-[30rem] mb-5 p-2 border-4 border-[#9B533F]" src="profil.png" alt="profilbillede">
+        <img class="h-[30rem] mb-5 p-2 border-4 border-[#9B533F] mt-10 md:mt-0" src="profil.png" alt="profilbillede">
         <div class="md:col-start-1 md:col-span-1">
           <ul>
             <div class="flex pb-4 ">
@@ -68,21 +64,21 @@ import Button from "./Button.svelte";
 
 
 
-<section class="grid bg-[#9B533F] h-auto place-items-center">
+<section class="grid bg-[#3E4237] h-auto place-items-center">
   <div class="grid place-items-center mt-10 mb-10">
-  <h3 class="text-6xl pb-9 p-2 text-center biaukai">Let's be social!</h3>
-  <p class="text-center">Feel free to send me a message in any kind, <br> I would love to get in touch with you! </p>
+  <h3 class="text-6xl pb-9 p-2 text-center biaukai text-[#F0E8CD]">Let's be social!</h3>
+  <p class="text-center pb-10 md:pb-0 text-[#F0E8CD]">Feel free to send me a message in any kind, <br> I would love to get in touch with you! </p>
   </div>
 
-  <div class="md:flex md:gap-80 mb-8">
+  <div class="flex gap-40 md:gap-80 mb-8">
       <div class="grid place-items-center">
           <a href="sms:(+45)(28513171)">
-          <img class="md:h-[3.9rem] h-[2rem]" src="instagram.svg" alt="telephone icon"></a>
+          <img class="h-[3.9rem]" src="instagram.svg" alt="telephone icon"></a>
           <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">Instagram</p>
       </div> 
       <div class="grid place-items-center">
           <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank">
-          <img class="md:h-[3.9rem] h-[2rem]" src="linked.svg" alt="linkedin icon"></a>
+          <img class="h-[3.9rem]" src="linked.svg" alt="linkedin icon"></a>
           <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">LinkedIn</p>
       </div> 
 </div>

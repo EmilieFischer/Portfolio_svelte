@@ -9,7 +9,7 @@
 <Header title="MY PORTFOLIO"/>
 <main>
     <div class="grid pt-20 pb-20 bg-[#3E4237]">
-        <h2 class="text-6xl text-center text-[#F0E8CD] h3_hi">Some of my projects</h2>
+        <h2 class="text-6xl text-center text-[#F0E8CD] biaukai">Some of my projects</h2>
     </div>
   
    <!-- <div class="grid place-content-center">

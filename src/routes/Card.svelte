@@ -22,9 +22,11 @@
 
 
 <style>
+
 h4 {
     font-family: 'BiauKai';
 }
+
 .overlay-text-description {
     line-height: 1.5;
 }
@@ -47,6 +49,18 @@ img {
     height: auto;
 }
 
+.text-overlay {
+    color: #000000;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    max-width: 100%;
+    margin-right: 12px;
+}
+@media screen and (min-width: 600px) {
+ 
+
+
 
 
 .overlay {
@@ -62,31 +76,12 @@ img {
     background-color: #ffffff52;
 }
 
-.text-overlay {
-    color: #000000;
-    position: absolute;
-    top: 5%;
-    left: 8%;
-    max-width: 100%;
-    margin-right: 12px;
-}
+
 
 #card_projects:hover .overlay {
     opacity: 0.9;
 }
-
-/* .slide-right {
-	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
-@keyframes slide-right {
-  0% {
-            transform: translateX(0);
-  }
-  100% {
-            transform: translateX(100px);
-  }
-} */
 
 
 </style>

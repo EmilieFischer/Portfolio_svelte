@@ -14,7 +14,7 @@
     </article>
     <article>
       <div class="grid place-items-center">
-      <h3 class="font-bold text-2xl tracking-widest pb-10 pt-3">SOCIAL</h3>
+      <h3 class="font-bold text-2xl tracking-widest pb-10 pt-3">SOCIALS</h3>
         <div class="flex gap-28 md:gap-4">
           <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank"><img class="h-[4rem]" src="linked.svg" alt="linkedin icon"></a>
           <a href="https://www.instagram.com/emiliefischer/" target="_blank"><img class="h-[4rem]" src="instagram.svg" alt="instagram icon"></a>

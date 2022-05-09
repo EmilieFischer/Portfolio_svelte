@@ -55,12 +55,7 @@
       </div>
        
       </section>
-      <section class="mt-10">
-        <hr class="border-[#9B533F] border-2 w-full slide-in-right">
-        <h1 class="py-10 text-center biaukai text-6xl md:text-8xl">Welcome to my portfolio</h1>
-        <hr class="border-[#9B533F] border-2 w-full slide-in-left">
-
-    </section>
+    
      </header>
     
     <style>
@@ -193,35 +188,8 @@
         }
       }
     
-      .slide-in-right {
-    animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+     
 
-@keyframes slide-in-right {
-0% {
-        transform: translateX(-100%);
-opacity: 1;
-}
-100% {
-        transform: translateX(0);
-opacity: 1;
-}
-}
-
-.slide-in-left {
-    animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@keyframes slide-in-left {
-0% {
-        transform: translateX(100%);
-opacity: 1;
-}
-100% {
-        transform: translateX(0);
-opacity: 1;
-}
-}
 
 .biaukai {
         font-family: 'BiauKai';

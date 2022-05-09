@@ -59,7 +59,7 @@
         </div>
         </div>
         </div>
-        <div class="col-start-2 col-span-1 grid place-items-center">
+        <div class="col-start-2 col-span-1 grid place-items-center ">
             <img {src} class="w-auto" alt="project_picture">
             <Button buttontext="Se website"/>
 

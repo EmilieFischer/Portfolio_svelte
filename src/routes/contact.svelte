@@ -2,11 +2,11 @@
 import Footer from "./Footer.svelte";
 import Header from "./Header.svelte";
 import Button from "./Button.svelte";
-import Header2 from "./Header2.svelte";
+import Header3 from "./Header3.svelte";
 
 </script>
 
-<Header2/>
+<Header3/>
 <main>
  
 <!-- <div class="grid pt-20 pb-10">

@@ -11,7 +11,7 @@
     <img class="block bg-{color}" src={src} alt="project_picture">
     <div class="overlay">
         <div class="text-overlay">
-            <h4 class="text-4xl">{title}</h4>
+            <h4 class="text-2xl md:text-3xl">{title}</h4>
             <div class="overlay_underline"></div>
             <!-- <p class="overlay-text-description">{text}</p> -->
         </div>

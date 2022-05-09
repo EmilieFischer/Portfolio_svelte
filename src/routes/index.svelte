@@ -4,6 +4,8 @@
     import Card from "./Card.svelte";
     import { page } from '$app/stores';
     import Button from "./Button.svelte";
+    import Header2 from "./Header2.svelte";
+
 </script>
 
 <head>
@@ -11,16 +13,17 @@
 
 </head>
 
-<Header title="PORTFOLIO"/>
+<Header2/>
 <main>
-    <section class="md:grid md:grid-cols-2 md:p-28 gap-20">
+    <section class="md:grid md:grid-cols-2 md:p-28 gap-20 mt-10 md:mt-0">
         <article class="md:col-start-1 md:col-span-1 p-6 md:p-0">
             <h3 class="biaukai text-[6rem]">Hi!</h3>
             <p class="biaukai text-4xl pb-10">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
-            <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital designer my main focus is to create and design digital solutions based on both user experience (UX) and user interface (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
-            <p class="pt-5">As a person I'm curious and interested in all the different aspects of creating digital solutions together with other creative minds, which makes being a multimedia design student a very exciting and interesting study!</p>
-            <p>If you look below you will find a little selection of some of my work and projects that I've done at KEA. <br> Each project is a link, so if you click you will be led on to more information about the project.</p>
+            <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital designer my main focus is to do content creation and to design digital solutions based on my knowledge of user experience (UX) and user interface design (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
+            <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I hope to increase my knowledge and skills within designing digital solutions and all it implies, and I hope to do so in a professional and safe environment in which I can participate in the work proces among other talented and creative people.</p>
+            <p class="pt-5">If you look below you will find a little selection of some of my projects that I've done at KEA.</p>
             <p class="pt-5">I hope you will enjoy!</p>
+            
 
         </article>
         <div class="md:col-start-2 md:col-span-1 grid justify-items-center">
@@ -30,13 +33,13 @@
     </section>
 
 
-    <div class="grid pt-20 pb-20 bg-[#3E4237]">
+    <div class="grid pt-20 pb-20 mt-20 md:mt-0 bg-[#3E4237]">
         <h2 class="text-6xl text-center text-[#F0E8CD] biaukai">Some of my projects</h2>
     </div>
 
     <section class="grid md:grid-cols-3 md:grid-rows-2 gap-2 m-2">
         <div>
-            <Card url="/projects#p1" src="bagerensbroed.png" color="[#A6A396]" title="Bagerens Brød - Game"/>
+            <Card url="/projects#p1" src="bagerensbroed.png" color="[#A6A396]" title="Bagerens Brød - Javascript Game"/>
             <!-- <Card url="#projekt1" src="bagerensbroed.png" color="red-200" title="Bagerens Brød - Game" text="1st semester project"/> -->
 
             <!-- <img class="bg-red-200" src="bagerensbroed.png" alt=""> -->

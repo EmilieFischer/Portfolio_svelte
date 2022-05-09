@@ -3,11 +3,11 @@
     import Header from "./Header.svelte";
     import Projectsingular from "./Projectsingular.svelte";
     import { page } from '$app/stores';
-import Header2 from "./Header2.svelte";
+import Header3 from "./Header3.svelte";
 
     </script>
 
-<Header2/>
+<Header3/>
 <main>
     <div class="grid pt-20">
         <h2 class="text-4xl lg:text-6xl leading-tight  text-center text-black biaukai">Some of my projects</h2>

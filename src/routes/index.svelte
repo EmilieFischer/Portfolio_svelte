@@ -6,6 +6,11 @@
     import Button from "./Button.svelte";
 </script>
 
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+
+</head>
+
 <Header title="PORTFOLIO"/>
 <main>
     <section class="md:grid md:grid-cols-2 md:p-28 gap-20">
@@ -80,7 +85,7 @@
 
     <section class="grid bg-[#9B533F] h-auto place-items-center">
         <article class="grid place-items-center mt-10 mb-10">
-        <h3 class="text-6xl pb-9 p-2 text-center h3_hi">Do you have something <br> on your mind?</h3>
+        <h3 class="text-6xl pb-9 p-2 text-center biaukai">Do you have something <br> on your mind?</h3>
         <p class="text-center">Feel free to send me a message in any kind, <br> I would love to get in touch with you! </p>
         </article>
 

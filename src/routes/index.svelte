@@ -12,7 +12,7 @@ import Header3 from "./Header3.svelte";
 
 
 <Header3/>
-<main>
+<main class="overflow-hidden">
     <section class="md:mt-10 mt-16">
         <hr class="border-[#9B533F] border-2 w-full slide-in-right">
         <h1 class="py-10 text-center biaukai text-6xl md:text-8xl">Welcome to my portfolio</h1>

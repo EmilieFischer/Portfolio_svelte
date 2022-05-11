@@ -1,26 +1,16 @@
 <script>
-    // export let buttontext;
     import { page } from '$app/stores';
-    // export let link;
 
 </script>
 
 <div class="buttons-coll">
-
-<!-- <button class="custom-btn btn-4" class:active={$page.url.pathname === '/about'}>
-    <a sveltekit:prefetch href="/about"><span>{buttontext}</span></a>
-  </button> -->
-
 <button class="custom-btn btn-4"><span><slot/></span> 
   </button>
 </div>
 
 
   <style>
-      /* .buttons-coll {
-  width: 90%;
-  text-align: center;
-} */
+ 
 
 button {
   margin-top: 20px;
@@ -107,10 +97,3 @@ button {
 }
 
   </style>
-
-
-  <!-- <button class:active={$page.url.pathname === '/about'}>
-    <a sveltekit:prefetch href="/about" class="hover:underline text-black border-2 border-black place-self-center">{buttontext}</a>
-  </button> -->
-
-  <!-- Want to know a little more about me? -->

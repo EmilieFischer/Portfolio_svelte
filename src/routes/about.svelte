@@ -45,50 +45,6 @@ import Header3 from "./Header3.svelte";
     </div>
     <Evner/>
 
-    <!-- <section class="grid bg-[#9B533F] h-auto place-items-center">
-        <article class="grid place-items-center mt-10 mb-10">
-        <h3 class="text-6xl pb-9 p-2 text-center h3_hi">What am I looking for <br> in my future internship?</h3>
-        <div class="flex">
-            <p class="text-center">Feel free to send me a message in any kind, I would love to get in touch with you! </p>
-            <p class="text-center">Feel free to send me a message in any kind, I would love to get in touch with you! </p>
-        </div>
-        </article>
-
-        <article class="md:flex md:gap-80 mb-8">
-            <div class="grid place-items-center">
-                <a href="sms:(+45)(28513171)">
-                <img class="md:h-[3.9rem] h-[2rem]" src="phone.svg" alt="telephone icon"></a>
-                <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">Download my CV</p>
-            </div> 
-            <div class="grid place-items-center">
-            <a href="mailto:emiliefdhansen@hotmail.com">
-                <img class="md:h-[3.9rem] h-[2rem]" src="mail.svg" alt="mail icon"></a>
-                <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">Download my recommendations</p>
-            </div> 
-            <div class="grid place-items-center">
-                <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank">
-                <img class="md:h-[3.9rem] h-[2rem]" src="linked.svg" alt="linkedin icon"></a>
-                <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">LinkedIn</p>
-            </div> 
-        </article>
-    </section> -->
-
-    <!-- <div class="grid pt-20 pb-10">
-        <h2 class="text-6xl place-self-center">A short resume of which things I've been working with at KEA</h2>
-        </div> -->
-    <!-- <section class="grid md:place-content-center">
-    <div class="md:flex">
-        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="Teamwork" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="Web development" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="Tests" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-    </div>
-    <div class="md:flex">
-        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="UI & UX" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-        <Kompetencer img_kompetence="kaffe.svg" title_kompetence="HTML og CSS" text_kompetence="halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj halløjs ja jajajaj"/>
-    </div>
-    </section> -->
-
     <section id="contact_me" class="grid bg-[#9B533F] h-auto place-items-center mt-[2rem]">
         <article class="grid place-items-center mt-10 mb-10">
         <h3 class="text-5xl md:text-6xl pl-10 pr-10 md:pl-0 md:pr-0  pb-9 p-2 text-center biaukai">Looking for a new intern?</h3>

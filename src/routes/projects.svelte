@@ -12,58 +12,6 @@
         <h2 class="text-6xl md:text-6xl leading-tight pl-10 md:pl-0 mt-28 md:text-center text-black biaukai">Some of my projects</h2>
     </div>
   
-   <!-- <div class="grid place-content-center">
-       <div class="md:flex grid place-content-center">
-            <div>
-                <ul class="flex place-self-center gap-20 md:mr-20 mb-10 md:mb-0"> -->
-                    <!-- <li class:active={$page.url.pathname === '/projects'}>
-                    <a sveltekit:prefetch href="/projects" class=" text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">01</a>
-                    </li> -->
-                        <!-- <li>
-                        <a href="projects#p1" class=" text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">01</a>
-                        </li>
-                        <li>
-                        <a href="projects#p2" class=" text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">02</a>
-                        </li>
-                        <li>
-                        <a href="projects#p3" class=" text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">03</a>
-                        </li> -->
-                           
-
-                    <!-- url="/projects#p1" -->
-                    <!-- <li class:active={$page.url.pathname === '/about'}>
-                    <a sveltekit:prefetch href="/about" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">02</a>
-                    </li>
-                    <li class:active={$page.url.pathname === '/contact'}>
-                    <a sveltekit:prefetch href="/contact" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">03</a>
-                    </li> -->
-                <!-- </ul>
-            </div>
-            <div>
-                <ul class="flex place-self-center gap-20"> -->
-                    <!-- <li class:active={$page.url.pathname === '/projects'}>
-                    <a sveltekit:prefetch href="/projects" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">04</a>
-                    </li>
-                    <li class:active={$page.url.pathname === '/about'}>
-                    <a sveltekit:prefetch href="/about" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">05</a>
-                    </li>
-                    <li class:active={$page.url.pathname === '/contact'}>
-                    <a sveltekit:prefetch href="/contact" class="text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">06</a>
-                    </li> -->
-                    <!-- <li>
-
-                    <a href="projects#p4" class=" text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">04</a>
-                </li>
-                <li>
-                <a href="projects#p5" class=" text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">05</a>
-                </li>
-                <li>
-                <a href="projects#p6" class=" text-black biaukai text-5xl border-2 hover:bg-[#3E4237] hover:text-[#F0E8CD]  border-black rounded-full p-3">06</a>
-                </li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
 <section class="mt-40">
     <Projectsingular link="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" nummeret="1" src="bagerensbroed.png" projektnummer="01" project_name="Bagerens Brød - Game" text_project="This assignment was made on 1st semester of MMD. The assignment was to design and develop a game using HTML, CSS and Javascript, and for me this was also the first time using Javascript. To present the game I created a website which enclosed some of the proces creating the game. If you click on the link you will see the website in which you can also play the game." programmer="Skills used in this project" redskab1="HTML" redskab2="CSS" redskab3="Javascript" redskab4="Adobe Illustrator" redskab5="Adobe Photoshop" redskab6="Adobe Photoshop" />
 </section>

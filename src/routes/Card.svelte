@@ -13,7 +13,6 @@
         <div class="text-overlay">
             <h4 class="text-2xl md:text-3xl">{title}</h4>
             <div class="overlay_underline"></div>
-            <!-- <p class="overlay-text-description">{text}</p> -->
         </div>
     </div></a>
 </section>

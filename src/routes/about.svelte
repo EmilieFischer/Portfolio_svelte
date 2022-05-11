@@ -13,12 +13,10 @@ import Header3 from "./Header3.svelte";
     
     <section class="md:grid md:grid-cols-2 md:px-28 md:py-10 gap-20">
         <article class="md:col-start-1 md:col-span-1 p-4 px-10 md:px-0">
-            <h3 class="biaukai text-6xl md:text-6xl leading-tight pb-16 md:mt-10 mt-28">A few words about me</h3>
-            <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital design student my main focus is to create and design digital solutions based on both knowledge about user experience (UX) and user interface design (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
-            <p class="pt-5">As a person I'm curious and interested in all the different aspects of creating digital solutions together with other creative people. In my upcoming internship I'm hoping to develop my knowledge and skills within designing digital solutions. I hope to do so in a professional environment in which I can participate and share my knowledge and learn from </p>
-            <p>If you look below you will find a little selection of some of my work and projects that I've done at KEA. Each project is a link, so if you click you will be led on to more information about each project.</p>
-            <p class="pt-5 pb-10 md:pb-0">I hope you will enjoy!</p>
-        </article>
+            <p class="biaukai text-4xl pb-10">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
+            <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital designer my main focus is to do content creation and to design digital solutions based on my knowledge of user experience (UX) and user interface design (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
+            <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I hope to increase my knowledge and skills within designing digital solutions and all it implies, and I hope to do so in a professional and safe environment in which I can participate in the work proces among other talented and creative people.</p>       
+         </article>
         <div class="md:col-start-2 md:col-span-1 grid justify-items-center">
             <img class="h-auto md:w-[450px] w-[300px] p-2 border-4 border-[#9B533F]" src="profil.png" alt="profilbillede">
         </div>

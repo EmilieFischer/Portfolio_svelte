@@ -8,11 +8,6 @@
 </script>
     
       <header class="h-[4rem] md:h-[6rem]">
-    
-        <!-- <section id="hero-section" class=" h-[5rem] grid"> 
-         
-        
-        </section> -->
         <section id="navigation" class="justify-between absolute top-0 w-full">
         <div id="brand" class:active={$page.url.pathname === '/'}>
           <a sveltekit:prefetch href="/">
@@ -90,7 +85,7 @@
     #navigation {
       padding: 1.25rem;
       display: flex;
-    }
+ }
     
     #brand {
       display: flex;

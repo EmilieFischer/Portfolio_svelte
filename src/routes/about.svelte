@@ -36,7 +36,7 @@ import Header3 from "./Header3.svelte";
 
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center pt-14 md:pt-0">
-            <img class="md:h-[25rem] w-auto pb-24 px-10 md:px-0 md:pb-0" src="skala.svg" alt="profilbillede">
+            <img class="md:h-[25rem] w-auto pb-24 px-5 md:px-0 md:pb-0" src="skala.svg" alt="profilbillede">
         </div>
     </section>
 

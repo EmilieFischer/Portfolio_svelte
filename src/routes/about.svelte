@@ -91,7 +91,7 @@ import Header3 from "./Header3.svelte";
 
     <section id="contact_me" class="grid bg-[#9B533F] h-auto place-items-center mt-[2rem]">
         <article class="grid place-items-center mt-10 mb-10">
-        <h3 class="text-6xl pb-9 p-2 text-center biaukai">Do you have something <br> on your mind?</h3>
+        <h3 class="text-5xl md:text-6xl pb-9 p-2 text-center biaukai">Do you have something <br> on your mind?</h3>
         <p class="text-center">Feel free to send me a message in any kind, <br> I would love to get in touch with you! </p>
         </article>
 

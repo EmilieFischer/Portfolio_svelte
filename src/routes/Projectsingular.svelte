@@ -28,7 +28,7 @@
                         <h2 class="pb-10 text-5xl md:text-6xl biaukai">{project_name}</h2>
                         <p>{text_project}</p>
                         <h3 class="text-3xl pt-16 md:pt-10 biaukai pb-10">{programmer}</h3>
-                    <div class="flex">
+                    <div class="md:flex">
                         <div class="pr-[3rem]">
                             <li class="flex pb-4 items-center">
                                 <img class="pr-3 h-[1.3rem]" src="tools.svg" alt="tools icon">
@@ -38,7 +38,7 @@
                                 <img class="pr-3 h-[1.3rem]" src="tools.svg" alt="tools icon">
                                 <p class="text-[0.9rem] md:text-[1rem]">{redskab2}</p>
                             </li>
-                            <li class="flex items-center">
+                            <li class="flex items-center pb-4 md:pb-0">
                                 <img class="pr-3 h-[1.3rem]" src="tools.svg" alt="tools icon">
                                 <p class="text-[0.9rem] md:text-[1rem]">{redskab3}</p>
                             </li>

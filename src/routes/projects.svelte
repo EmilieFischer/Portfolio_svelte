@@ -9,7 +9,7 @@
 <Header3/>
 <main class="overflow-hidden">
     <div class="grid pt-20">
-        <h2 class="text-6xl md:text-6xl leading-tight  md:text-center text-black biaukai">Some of my projects</h2>
+        <h2 class="text-6xl md:text-6xl leading-tight pl-10 md:pl-0 md:text-center text-black biaukai">Some of my projects</h2>
     </div>
   
    <!-- <div class="grid place-content-center">

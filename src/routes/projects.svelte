@@ -86,10 +86,9 @@
 
 <section id="contact_me" class="grid bg-[#9B533F] h-auto place-items-center mt-[2rem]">
     <article class="grid place-items-center mt-10 mb-10">
-    <h3 class="text-6xl pb-9 p-2 text-center biaukai">Looking for a new intern?</h3>
-    <p class="text-center">I'm a multimedia design student looking for a digital internship! <br> If you're in need of an ambitious, curious and hardworking intern/coworker,</p>
-
-    <p class="text-center">Feel free to send me a message in any kind, I would love to get in touch with you! </p>
+    <h3 class="text-5xl md:text-6xl pl-10 pr-10 md:pl-0 md:pr-0  pb-9 p-2 text-center biaukai">Looking for a new intern?</h3>
+    <p class="text-center px-10 md:px-0">I'm a multimedia design student looking for a digital internship! <br> If you're in need of an ambitious, curious and hardworking intern/coworker, feel free to send me a message in any kind!</p>
+    <p class="text-center pt-5"> I would love to get in touch with you! </p>
     </article>
 
     <article class="md:flex md:gap-80 mb-8">

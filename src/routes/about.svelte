@@ -9,7 +9,7 @@ import Header3 from "./Header3.svelte";
 </script>
 
 <Header3/>
-<main>
+<main class="overflow-hidden">
     
     <section class="md:grid md:grid-cols-2 md:px-28 md:py-10 gap-20">
         <article class="md:col-start-1 md:col-span-1 p-4 px-10 md:px-0">
@@ -25,18 +25,18 @@ import Header3 from "./Header3.svelte";
     </section>
 
 
-    <div class="grid py-20 px-5 bg-[#3E4237] mt-10">
-        <h2 class="text-5xl md:text-6xl text-center text-[#F0E8CD] biaukai">Who I am according to: <br>16personalities.com </h2>
+    <div class="grid py-20 pl-10 pr-10 bg-[#3E4237] mt-10">
+        <h2 class="text-5xl md:text-6xl text-center text-[#F0E8CD] biaukai">Who I am according to: <span class="text-3xl md:text-6xl"> <br> 16personalities.com </span></h2>
     </div>
     <section class="md:grid md:grid-cols-2 md:px-28 md:py-10 gap-20">
-        <div class="p-5">
-            <h3 class="text-3xl md:text-5xl  pb-10 biaukai ">The protagonist</h3>
+        <div class="p-4 px-10 md:px-0">
+            <h3 class="text-3xl md:text-5xl pb-10 biaukai">The protagonist</h3>
             <p class="pb-10">"Protagonists (ENFJs) are warm, idealistic, charismatic, creative, and social. With this wind at their backs, these types can thrive in many diverse roles, at any level of seniority. Moreover, they are generally likable and good-natured – qualities that can propel them to success wherever they have a chance to work with others."</p>
             <p>"As colleagues, Protagonists stand out for their desire to collaborate. They are always on the lookout for opportunities to create win-win situations and help their coworkers reach their full potential. These personalities foster equitable team environments where everyone – whatever their job title – can feel comfortable expressing their opinions and ideas."</p>
 
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center pt-14 md:pt-0">
-            <img class="md:h-[25rem] w-auto pb-24 md:pb-0" src="skala.svg" alt="profilbillede">
+            <img class="md:h-[25rem] w-auto pb-24 px-10 md:px-0 md:pb-0" src="skala.svg" alt="profilbillede">
         </div>
     </section>
 

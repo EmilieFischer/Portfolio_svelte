@@ -40,7 +40,7 @@ button {
 }
 
 .btn-4 {
-  width: 20rem;
+  width: 14rem;
   height: 60px;
   line-height: 70px;
   padding: 0;
@@ -97,6 +97,13 @@ button {
 }
 .btn-4 span:hover:after {
   width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .btn-4 {
+  width: 20rem;
+  
+}
 }
 
   </style>

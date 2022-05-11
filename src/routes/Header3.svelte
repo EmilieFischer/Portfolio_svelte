@@ -89,7 +89,6 @@
     
     #navigation {
       padding: 1.25rem;
-      /* height: 5rem; */
       display: flex;
     }
     
@@ -147,7 +146,8 @@
     }
 
     .open .bar {
-        background-color: #F0E8CD;
+        background-color: #F0E8CD;     
+
     }
     .open .bar1 {
       transform: rotate(-45deg) translate(-6px, 6px);
@@ -167,7 +167,6 @@
     
     .open .mobile-menu{
       display: flex;
-      position: absolute;
       flex-direction: column;
       align-items: center;
       background-color: #3E4237;

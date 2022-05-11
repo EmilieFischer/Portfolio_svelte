@@ -21,40 +21,40 @@
 
 
 <section id={`p${nummeret}`} class="relative">
-    <div class="pt-10 bg-[#3E4237] marker:p-10 pb-10">
-            <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-7rem] md:left-[85%] left-[74%] biaukai">{projektnummer}</p>
-            <div class="m-10 md:p-10 p-4  bg-[#F0E8CD] border-8 border-[#A6A396] md:grid md:grid-cols-2">
+    <div class="pt-10 bg-[#3E4237] pb-10">
+            <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-7rem] md:left-[85%] left-[67%] biaukai">{projektnummer}</p>
+            <div class="md:m-10 m-[1rem] md:p-10 p-4 bg-[#F0E8CD] border-8 border-[#A6A396] md:grid md:grid-cols-2">
                 <div class="md:col-start-1 pb-5 md:col-span-1">
-                        <h2 class="pb-10 text-5xl biaukai">{project_name}</h2>
+                        <h2 class="pb-10 text-5xl md:text-6xl biaukai">{project_name}</h2>
                         <p>{text_project}</p>
                         <h3 class="text-3xl pt-16 md:pt-10 biaukai pb-10">{programmer}</h3>
                     <div class="flex">
-                        <div class="pr-28">
+                        <div class="pr-[3rem]">
                             <li class="flex pb-4 items-center">
-                                <img class="pr-3" src="tools.svg" alt="tools icon">
-                                <p>{redskab1}</p>
+                                <img class="pr-3 h-[1.3rem]" src="tools.svg" alt="tools icon">
+                                <p class="text-[0.9rem] md:text-[1rem]">{redskab1}</p>
                             </li>
                             <li class="flex pb-4 items-center">
-                                <img class="pr-3" src="tools.svg" alt="tools icon">
-                                <p>{redskab2}</p>
+                                <img class="pr-3 h-[1.3rem]" src="tools.svg" alt="tools icon">
+                                <p class="text-[0.9rem] md:text-[1rem]">{redskab2}</p>
                             </li>
                             <li class="flex items-center">
-                                <img class="pr-3" src="tools.svg" alt="tools icon">
-                                <p>{redskab3}</p>
+                                <img class="pr-3 h-[1.3rem]" src="tools.svg" alt="tools icon">
+                                <p class="text-[0.9rem] md:text-[1rem]">{redskab3}</p>
                             </li>
                         </div>
-                        <div class="pr-14 md:pr-0">
+                        <div class="md:pr-0">
                             <li class="flex pb-4 items-center">
-                                <img class="pr-3" src="tools.svg" alt="tools icon">
-                                <p>{redskab4}</p>
+                                <img class="pr-3 h-[1.3rem]" src="tools.svg" alt="tools icon">
+                                <p class="text-[0.9rem] md:text-[1rem]">{redskab4}</p>
                             </li>
                             <li class="flex pb-4 items-center">
-                                <img class="pr-3" src="tools.svg" alt="tools icon">
-                                <p>{redskab5}</p>
+                                <img class="pr-3 h-[1.3rem]" src="tools.svg" alt="tools icon">
+                                <p class="text-[0.9rem] md:text-[1rem]">{redskab5}</p>
                             </li>
                             <li class="flex">
-                                <img class="pr-3 items-center" src="tools.svg" alt="tools icon">
-                                <p>{redskab6}</p>
+                                <img class="pr-3 h-[1.3rem] items-center" src="tools.svg" alt="tools icon">
+                                <p class="text-[0.9rem] md:text-[1rem]">{redskab6}</p>
                             </li>
                         </div>
                     </div>

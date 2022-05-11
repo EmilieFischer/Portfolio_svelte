@@ -40,7 +40,7 @@ button {
 }
 
 .btn-4 {
-  width: 14rem;
+  width: 16rem;
   height: 60px;
   line-height: 70px;
   padding: 0;

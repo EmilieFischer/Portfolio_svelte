@@ -68,9 +68,6 @@
 
 
 <style>
-#p1 {
-    z-index: -1;
-}
 
     .biaukai {
         font-family: 'BiauKai';

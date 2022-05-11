@@ -20,7 +20,7 @@
           </a>
         </div>
         <nav>
-          <ul>
+          <ul class="gap-20">
             <li class:active={$page.url.pathname === '/projects'}>
               <a sveltekit:prefetch href="/projects" class="hover-underline-animation w3rcontainer text-black text-lg tracking-wider biaukai ">My work</a>
             </li>
@@ -40,15 +40,18 @@
           <div class="bar1 bar"></div>
           <div class="bar2 bar"></div>
           <div class="bar3 bar"></div>
-          <ul class="mobile-menu">
+          <ul class="mobile-menu gap-2">
+            <li class:active={$page.url.pathname === '/'}>
+                <a sveltekit:prefetch href="/" class="hover-underline-animation text-[#F0E8CD] text-5xl">Home</a>
+              </li>
             <li class:active={$page.url.pathname === '/projects'}>
-              <a sveltekit:prefetch href="/projects" class="hover-underline-animation text-black">My work</a>
+              <a sveltekit:prefetch href="/projects" class="hover-underline-animation text-[#F0E8CD] text-5xl">My work</a>
             </li>
             <li class:active={$page.url.pathname === '/about'}>
-              <a sveltekit:prefetch href="/about" class="hover-underline-animation text-black">Get to know me</a>
+              <a sveltekit:prefetch href="/about" class="hover-underline-animation text-[#F0E8CD] text-5xl">Get to know me</a>
             </li>
             <li class:active={$page.url.pathname === '#contact_me'}>
-              <a sveltekit:prefetch href="#contact_me" class="hover-underline-animation text-black">Contact</a>
+              <a sveltekit:prefetch href="#contact_me" class="hover-underline-animation text-[#F0E8CD] text-5xl">Contact</a>
             </li>
           </ul>
         
@@ -100,8 +103,9 @@
       height: 100%;
       display: flex;
       align-items: center;
-      gap: 4rem;
       margin-right: 8rem;
+      z-index: 998;
+
     }
     
     ul li:hover {
@@ -132,17 +136,22 @@
     #hamburger-icon div {
       width: 2.188rem;
       height: 0.188rem;
-      background-color: #000000;
       margin: 0.375rem 0;
       transition: 0.4s;
     }
     
     .bar {
+    background-color: #000000;
       position: relative;
-      z-index: 10;
+      z-index: 999;
+    }
+
+    .open .bar {
+        background-color: #F0E8CD;
     }
     .open .bar1 {
       transform: rotate(-45deg) translate(-6px, 6px);
+
     }
     
     .open .bar2 {
@@ -155,13 +164,15 @@
     
     }
     
+    
     .open .mobile-menu{
       display: flex;
       position: absolute;
       flex-direction: column;
       align-items: center;
-      background-color: pink;
+      background-color: #3E4237;
       height: 100vh;
+      justify-content: center;
     }
     
     a {

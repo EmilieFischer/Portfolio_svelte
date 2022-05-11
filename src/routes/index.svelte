@@ -130,7 +130,36 @@ import Header3 from "./Header3.svelte";
         font-family: 'BiauKai';
     }
 
+  
+    .slide-in-right {
+    animation: slide-in-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
+@keyframes slide-in-right {
+0% {
+        transform: translateX(-100%);
+opacity: 1;
+}
+100% {
+        transform: translateX(0);
+opacity: 1;
+}
+}
+
+.slide-in-left {
+    animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-left {
+0% {
+        transform: translateX(100%);
+opacity: 1;
+}
+100% {
+        transform: translateX(0);
+opacity: 1;
+}
+}
 
   
 </style>

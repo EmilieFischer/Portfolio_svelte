@@ -21,97 +21,49 @@
 
 
 <section id={`p${nummeret}`} class="relative">
-    <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-7rem] md:left-[85%] left-[74%] biaukai">{projektnummer}</p>
-    <div class="md:grid pt-10  md:pt-0 md:grid-cols-2 bg-[#3E4237] marker:p-10">
-        <div class="m-10 p-10 bg-[#F0E8CD] border-8 border-[#A6A396]">
-        <h2 class="pb-10 text-5xl biaukai">{project_name}</h2>
-        <div class="md:col-start-1 pb-5 md:col-span-1">
-            <p>{text_project}</p>
-            <h3 class="text-3xl pt-16 md:pt-10 biaukai pb-10">{programmer}</h3>
-            <div class="flex">
-            <div class="pr-28">
-                <li class="flex pb-4 items-center">
-                    <img class="pr-3" src="tools.svg" alt="tools icon">
-                    <p>{redskab1}</p>
-                </li>
-                <li class="flex pb-4 items-center">
-                    <img class="pr-3" src="tools.svg" alt="tools icon">
-                    <p>{redskab2}</p>
-                </li>
-                <li class="flex items-center">
-                    <img class="pr-3" src="tools.svg" alt="tools icon">
-                    <p>{redskab3}</p>
-                </li>
+    <div class="pt-10 bg-[#3E4237] marker:p-10 pb-10">
+            <p class="absolute md:text-[10rem] text-[8rem] md:top-[-8rem] top-[-7rem] md:left-[85%] left-[74%] biaukai">{projektnummer}</p>
+            <div class="m-10 md:p-10 p-4  bg-[#F0E8CD] border-8 border-[#A6A396] md:grid md:grid-cols-2">
+                <div class="md:col-start-1 pb-5 md:col-span-1">
+                        <h2 class="pb-10 text-5xl biaukai">{project_name}</h2>
+                        <p>{text_project}</p>
+                        <h3 class="text-3xl pt-16 md:pt-10 biaukai pb-10">{programmer}</h3>
+                    <div class="flex">
+                        <div class="pr-28">
+                            <li class="flex pb-4 items-center">
+                                <img class="pr-3" src="tools.svg" alt="tools icon">
+                                <p>{redskab1}</p>
+                            </li>
+                            <li class="flex pb-4 items-center">
+                                <img class="pr-3" src="tools.svg" alt="tools icon">
+                                <p>{redskab2}</p>
+                            </li>
+                            <li class="flex items-center">
+                                <img class="pr-3" src="tools.svg" alt="tools icon">
+                                <p>{redskab3}</p>
+                            </li>
+                        </div>
+                        <div class="pr-14 md:pr-0">
+                            <li class="flex pb-4 items-center">
+                                <img class="pr-3" src="tools.svg" alt="tools icon">
+                                <p>{redskab4}</p>
+                            </li>
+                            <li class="flex pb-4 items-center">
+                                <img class="pr-3" src="tools.svg" alt="tools icon">
+                                <p>{redskab5}</p>
+                            </li>
+                            <li class="flex">
+                                <img class="pr-3 items-center" src="tools.svg" alt="tools icon">
+                                <p>{redskab6}</p>
+                            </li>
+                        </div>
+                    </div>
+            </div> 
+            <div class="col-start-2 col-span-1 grid place-items-center ">
+                <img {src} class="w-auto" alt="project_picture">
+                <Button> <a href={link} target="blank">Visit the website</Button> 
             </div>
-            <div class="pr-14 md:pr-0">
-                <li class="flex pb-4 items-center">
-                    <img class="pr-3" src="tools.svg" alt="tools icon">
-                    <p>{redskab4}</p>
-                </li>
-                <li class="flex pb-4 items-center">
-                    <img class="pr-3" src="tools.svg" alt="tools icon">
-                    <p>{redskab5}</p>
-                </li>
-                <li class="flex">
-                    <img class="pr-3 items-center" src="tools.svg" alt="tools icon">
-                    <p>{redskab6}</p>
-                </li>
-            </div>
-        </div>
-        </div>
-        </div>
-        <div class="col-start-2 col-span-1 grid place-items-center ">
-            <img {src} class="w-auto" alt="project_picture">
-            <Button> <a href={link} target="blank">Visit the website</Button> 
-        </div>
     </div>
-    <!-- <div class="md:flex md:justify-between grid grid-cols-2 grid-rows-2">
-        <img class="md:h-[23rem] w-auto"  src="bageren1.png" alt="">
-        <img class="md:h-[23rem] w-auto"  src="kvadrat.jpg" alt="">
-        <img class="md:h-[23rem] w-auto"  src="kvadrat.jpg" alt="">
-        <img class="md:h-[23rem] w-auto"  src="kvadrat.jpg" alt="">
-    </div> -->
-    <!-- <div class="md:grid md:grid-cols-2 bg-cyan-100 mdp-10">
-        <div class="md:col-start-1 md:col-span-1 md:p-10 pl-5">
-            <h3 class="text-4xl pb-10 pt-5 md:pt-0">{mine_arbejdsopgaver}</h3>
-            <p class="pr-14">{text_project}</p>
-           
-        </div>
-        <div class="col-start-2 col-span-1 grid md:place-items-center pl-5 md:pl-0">
-        <div class="md:col-start-1 md:col-span-1 md:p-10">
-            <h3 class="text-4xl pb-10 pt-16 md:pt-0">{programmer}</h3>
-            <ul class="flex justify-between">
-                <div>
-            <li class="flex pb-4">
-                <img src="kaffe.svg" alt="">
-                <p>{redskab1}</p>
-            </li>
-            <li class="flex pb-4">
-                <img src="kaffe.svg" alt="">
-                <p>{redskab2}</p>
-            </li>
-            <li class="flex pb-4">
-                <img src="kaffe.svg" alt="">
-                <p>{redskab3}</p>
-            </li>
-        </div>
-        <div class="pr-14 md:pr-0">
-            <li class="flex pb-4">
-                <img src="kaffe.svg" alt="">
-                <p>{redskab4}</p>
-            </li>
-            <li class="flex pb-4">
-                <img src="kaffe.svg" alt="">
-                <p>{redskab5}</p>
-            </li>
-            <li class="flex">
-                <img src="kaffe.svg" alt="">
-                <p>{redskab6}</p>
-            </li>
-        </div>
-        </ul>
-        </div>
-    </div> -->
 </section>
 
 

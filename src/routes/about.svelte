@@ -13,7 +13,7 @@ import Header3 from "./Header3.svelte";
     
     <section class="md:grid md:grid-cols-2 md:px-28 md:py-10 gap-20">
         <article class="md:col-start-1 md:col-span-1 p-4">
-            <h3 class="biaukai text-4xl lg:text-6xl leading-tight pb-16 pt-10">A few words about me</h3>
+            <h3 class="biaukai text-6xl md:text-6xl leading-tight pb-16 md:mt-10 mt-16">A few words about me</h3>
             <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital design student my main focus is to create and design digital solutions based on both knowledge about user experience (UX) and user interface design (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
             <p class="pt-5">As a person I'm curious and interested in all the different aspects of creating digital solutions together with other creative people. In my upcoming internship I'm hoping to develop my knowledge and skills within designing digital solutions. I hope to do so in a professional environment in which I can participate and share my knowledge and learn from </p>
             <p>If you look below you will find a little selection of some of my work and projects that I've done at KEA. Each project is a link, so if you click you will be led on to more information about each project.</p>

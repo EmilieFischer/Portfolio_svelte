@@ -5,16 +5,20 @@
     import { page } from '$app/stores';
     import Button from "./Button.svelte";
     import Header2 from "./Header2.svelte";
+import Header3 from "./Header3.svelte";
 
 </script>
 
-<head>
-    <link rel="icon" type="image/x-icon" href="favicon.svg">
 
-</head>
 
-<Header2/>
+<Header3/>
 <main>
+    <section class="md:mt-10 mt-16">
+        <hr class="border-[#9B533F] border-2 w-full slide-in-right">
+        <h1 class="py-10 text-center biaukai text-6xl md:text-8xl">Welcome to my portfolio</h1>
+        <hr class="border-[#9B533F] border-2 w-full slide-in-left">
+
+    </section>
     <section class="md:grid md:grid-cols-2 md:p-28 gap-20 mt-10 md:mt-0">
         <article class="md:col-start-1 md:col-span-1 p-6 md:p-0">
             <h3 class="biaukai text-[6rem]">Hi!</h3>
@@ -28,7 +32,9 @@
         </article>
         <div class="md:col-start-2 md:col-span-1 grid justify-items-center">
             <img class="h-auto md:w-[450px] w-[300px] p-2 border-4 border-[#9B533F]" src="profil-sh.png" alt="profilbillede">
-            <Button buttontext="Want to know me a little bit more?"/>
+            <!-- <Button link="/about" buttontext="Want to know me a little bit more?"/> -->
+            <Button> <a href="/about">Want to know me a little bit more?</a> </Button> 
+
         </div>
     </section>
 
@@ -71,12 +77,14 @@
         </div>
     </section>
 
-    <section class="md:grid md:grid-cols-2 p-4 md:p-10">
+    <!-- <section class="md:grid md:grid-cols-2 p-4 md:p-10">
         <article class="md:col-start-1 md:col-span-1 p-10 grid justify-items-center">
             <div class="grid justify-items-center">
             <h3 class="text-4xl pb-8 text-center biaukai">Looking for a new intern?</h3>
             <p class="text-center">I'm a multimedia design student looking for a digital internship. If you're in need of an ambitious, curious and hardworking intern/coworker, don't hesitate to send me a message. I'm sure I would love to hear from you.</p>
-            <Button buttontext="Contact me here"/>
+            <Button link="/contact" buttontext="Contact me here"/>
+            <Button> <a href="/contact">Contact me here</a> </Button> 
+
         </div>
         </article>
         <div class="col-start-2 col-span-1 grid place-items-center">
@@ -84,12 +92,13 @@
         </div>
 
     
-    </section>
+    </section> -->
 
-    <section class="grid bg-[#9B533F] h-auto place-items-center">
+    <section id="contact_me" class="grid bg-[#9B533F] h-auto place-items-center mt-[2rem]">
         <article class="grid place-items-center mt-10 mb-10">
-        <h3 class="text-6xl pb-9 p-2 text-center biaukai">Do you have something <br> on your mind?</h3>
-        <p class="text-center">Feel free to send me a message in any kind, <br> I would love to get in touch with you! </p>
+        <h3 class="text-6xl pb-9 p-2 text-center biaukai">Looking for a new intern?</h3>
+        <p class="text-center">I'm a multimedia design student looking for a digital internship! <br> If you're in need of an ambitious, curious and hardworking intern/coworker, feel free to send me a message in any kind,<br>   I would love to get in touch with you!</p>
+        <p class="text-center"> </p>
         </article>
 
         <article class="md:flex md:gap-80 mb-8">
@@ -120,6 +129,8 @@
     .biaukai {
         font-family: 'BiauKai';
     }
+
+
 
   
 </style>

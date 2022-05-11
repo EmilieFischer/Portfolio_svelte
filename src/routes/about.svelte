@@ -89,7 +89,30 @@ import Header3 from "./Header3.svelte";
     </div>
     </section> -->
 
+    <section id="contact_me" class="grid bg-[#9B533F] h-auto place-items-center mt-[2rem]">
+        <article class="grid place-items-center mt-10 mb-10">
+        <h3 class="text-6xl pb-9 p-2 text-center biaukai">Do you have something <br> on your mind?</h3>
+        <p class="text-center">Feel free to send me a message in any kind, <br> I would love to get in touch with you! </p>
+        </article>
 
+        <article class="md:flex md:gap-80 mb-8">
+            <div class="grid place-items-center">
+                <a href="sms:(+45)(28513171)">
+                <img class="md:h-[3.9rem] h-[2rem]" src="phone.svg" alt="telephone icon"></a>
+                <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">+45 28 51 31 71</p>
+            </div> 
+            <div class="grid place-items-center">
+            <a href="mailto:emiliefdhansen@hotmail.com">
+                <img class="md:h-[3.9rem] h-[2rem]" src="mail.svg" alt="mail icon"></a>
+                <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">emiliefdhansen@hotmail.com</p>
+            </div> 
+            <div class="grid place-items-center">
+                <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank">
+                <img class="md:h-[3.9rem] h-[2rem]" src="linked.svg" alt="linkedin icon"></a>
+                <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">LinkedIn</p>
+            </div> 
+        </article>
+    </section>
     
 
 </main>

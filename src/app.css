@@ -25,13 +25,10 @@ body {
     /* background-color: #F1ECE4; */
 }
 
-
-
-
-
-  .pulsate-bck {
+.pulsate-bck {
     animation: pulsate-bck 1s ease-in-out infinite both;
 }
+
 @keyframes pulsate-bck {
 0% {
 -webkit-transform: scale(1);

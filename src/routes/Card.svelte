@@ -27,6 +27,7 @@ h4 {
     font-family: 'BiauKai';
 }
 
+   
 .overlay-text-description {
     line-height: 1.5;
 }
@@ -59,10 +60,6 @@ img {
 }
 @media screen and (min-width: 600px) {
  
-
-
-
-
 .overlay {
     position: absolute;
     top: 0;
@@ -75,8 +72,6 @@ img {
     transition: .5s ease;
     background-color: #ffffff52;
 }
-
-
 
 #card_projects:hover .overlay {
     opacity: 0.9;

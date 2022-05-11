@@ -40,7 +40,7 @@ import Header3 from "./Header3.svelte";
             class="w-full h-32 border-4 border-[#3E4237] mt-2 p-3 bg-[#F0E8CD] focus:outline-none focus:shadow-outline"></textarea>
         </div>
         <div class="mt-8 grid place-content-center">
-          <Button buttontext="Send me a message!"/>
+          <Button> <a href="/">Contact me here</a> </Button> 
         </div>
       </div>
     

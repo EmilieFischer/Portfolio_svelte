@@ -1,13 +1,17 @@
 <script>
-    export let buttontext;
+    // export let buttontext;
     import { page } from '$app/stores';
+    // export let link;
 
 </script>
 
 <div class="buttons-coll">
 
-<button class="custom-btn btn-4" class:active={$page.url.pathname === '/about'}>
+<!-- <button class="custom-btn btn-4" class:active={$page.url.pathname === '/about'}>
     <a sveltekit:prefetch href="/about"><span>{buttontext}</span></a>
+  </button> -->
+
+<button class="custom-btn btn-4"><span><slot/></span> 
   </button>
 </div>
 

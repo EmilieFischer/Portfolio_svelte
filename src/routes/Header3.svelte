@@ -7,12 +7,12 @@
     }
 </script>
     
-      <header>
+      <header class="h-[4rem] md:h-[6rem]">
     
-        <section id="hero-section" class=" h-[5rem] grid"> 
+        <!-- <section id="hero-section" class=" h-[5rem] grid"> 
          
         
-        </section>
+        </section> -->
         <section id="navigation" class="justify-between absolute top-0 w-full">
         <div id="brand" class:active={$page.url.pathname === '/'}>
           <a sveltekit:prefetch href="/">
@@ -28,8 +28,8 @@
           <a sveltekit:prefetch href="/about" class="hover-underline-animation w3rcontainer text-black text-lg tracking-wider biaukai ">Get to know me</a>
         </li>
                
-              <li class:active={$page.url.pathname === '/contact'}>
-          <a sveltekit:prefetch href="/contact" class="hover-underline-animation  text-black text-lg tracking-wider  biaukai">Contact</a>
+              <li class:active={$page.url.pathname === '#contact_me'}>
+          <a sveltekit:prefetch href="#contact_me" class="hover-underline-animation  text-black text-lg tracking-wider  biaukai">Contact</a>
         </li>
           </ul>
         </nav>
@@ -47,8 +47,8 @@
             <li class:active={$page.url.pathname === '/about'}>
               <a sveltekit:prefetch href="/about" class="hover-underline-animation text-black">Get to know me</a>
             </li>
-            <li class:active={$page.url.pathname === '/contact'}>
-              <a sveltekit:prefetch href="/contact" class="hover-underline-animation text-black">Contact</a>
+            <li class:active={$page.url.pathname === '#contact_me'}>
+              <a sveltekit:prefetch href="#contact_me" class="hover-underline-animation text-black">Contact</a>
             </li>
           </ul>
         
@@ -86,7 +86,7 @@
     
     #navigation {
       padding: 1.25rem;
-      height: 5rem;
+      /* height: 5rem; */
       display: flex;
     }
     
@@ -169,7 +169,6 @@
     
     }
    
-    
 
     @keyframes typing {
       to {

@@ -14,6 +14,7 @@
     export let projektnummer;
     export let src;
     export let nummeret;
+    export let link;
 
 </script>
 
@@ -61,10 +62,7 @@
         </div>
         <div class="col-start-2 col-span-1 grid place-items-center ">
             <img {src} class="w-auto" alt="project_picture">
-            <Button buttontext="Se website"/>
-
-
-            
+            <Button> <a href={link} target="blank">Visit the website</Button> 
         </div>
     </div>
     <!-- <div class="md:flex md:justify-between grid grid-cols-2 grid-rows-2">
@@ -118,6 +116,10 @@
 
 
 <style>
+#p1 {
+    z-index: -1;
+}
+
     .biaukai {
         font-family: 'BiauKai';
     }

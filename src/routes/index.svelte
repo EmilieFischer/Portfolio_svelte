@@ -53,22 +53,22 @@ import Header3 from "./Header3.svelte";
 
     <section class="grid md:grid-cols-3 md:grid-rows-2 gap-2 m-2">
         <div>
-            <Card url="/projects#p1" src="bagerensbroed.png" color="[#b7baff]" title="Animation Game"/>
+            <Card url="/projects#p1" src="bagerensbroed.png"  title="Animation Game"/>
         </div>
         <div>
-            <Card url="/projects#p2" src="dolah.png" color="[#b7baff]" title="Do Lah Soap Bars"/>
+            <Card url="/projects#p2" src="dolah.png"  title="Do Lah Soap Bars"/>
         </div>
         <div>
-            <Card url="/projects#p3" src="musikloftet.png" color="[#b7baff]" title="Musikloftet.dk" />
+            <Card url="/projects#p3" src="musikloftet.png"  title="Musikloftet.dk" />
         </div>
         <div>
-            <Card url="/projects#p4" src="skolemad.png" color="[#b7baff]" title="Skolemad.dk"/>
+            <Card url="/projects#p4" src="skolemad.png" title="Skolemad.dk"/>
         </div>
         <div>
-            <Card url="/projects#p5" src="ungdomsbyen.png" color="[#b7baff]" title="Ungdomsbyen.dk"/>
+            <Card url="/projects#p5" src="ungdomsbyen.png"  title="Ungdomsbyen.dk"/>
         </div>
         <div>
-            <Card url="/projects#p6" src="crazyfont.png" color="[#b7baff]" title="Variable Font Assignment"/>
+            <Card url="/projects#p6" src="crazyfont.png"  title="Variable Font Assignment"/>
         </div>
     </section>
 

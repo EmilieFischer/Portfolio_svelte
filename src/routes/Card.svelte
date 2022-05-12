@@ -1,17 +1,16 @@
 <script>
     export let src;
     export let title;
-    export let color;
     export let url;
 
 </script>
 
 <section id="card_projects">
     <a href={url} target="_blank">
-    <img class="block bg-{color}" src={src} alt="project_picture">
+    <img class="block" src={src} alt="project_picture">
     <div class="overlay">
         <div class="text-overlay">
-            <h4 class="text-2xl md:text-3xl roboto">{title}</h4>
+            <h4 class="text-2xl md:text-3xl roboto uppercase font-medium">{title}</h4>
             <div class="overlay_underline"></div>
         </div>
     </div></a>
@@ -27,20 +26,21 @@
         font-family: 'roboto flex' ;
     }
 
-.overlay-text-description {
+/* .overlay-text-description {
     line-height: 1.5;
-}
+} */
 .overlay_underline {
     display: block;
     width: 75px;
     border: 1.5px solid;
     margin-top: 10px;
     margin-bottom: 15px;
-    color: #201abd;
+    color: #fff;
 }
 
 #card_projects {
     position: relative;
+    background-color: #201abd;
 }
 
 img {
@@ -50,7 +50,7 @@ img {
 }
 
 .text-overlay {
-    color: #000000;
+    color: #fff;
     position: absolute;
     top: 5%;
     left: 8%;
@@ -69,7 +69,7 @@ img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #ffffff52;
+    /* background-color: #ffffff7a; */
 }
 
 #card_projects:hover .overlay {

@@ -19,7 +19,9 @@ button {
 
 .custom-btn {
   padding: 20px 25px;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: 'roboto flex' ;
+
   font-weight: 500;
   background: transparent;
   outline: none !important;
@@ -48,7 +50,7 @@ button {
   content: "";
   right: 0;
   top: 0;
-  background: #9B533F;
+  background: #201abd;
   transition: all 0.3s ease;
 }
 .btn-4:before {
@@ -71,7 +73,7 @@ button {
   content: "";
   left: 0;
   bottom: 0;
-  background: #9B533F;
+  background: #201abd;
   transition: all 0.3s ease;
 }
 .btn-4 span:before {

@@ -8,12 +8,16 @@
 
 <Header3/>
 <main class="overflow-hidden">
-    <div class="grid">
+    <!-- <div class="grid">
         <h2 class="text-6xl md:text-6xl leading-tight pl-10 md:pl-0 mt-28 md:text-center text-black biaukai">Some of my projects</h2>
+    </div> -->
+    <div class="grid pt-20 pb-20 md:pb-0 md:mt-10 mt-16 ">
+        <h2 class="text-6xl md:text-8xl pl-10 md:pl-28 roboto uppercase font-medium">Some of my <br> projects</h2>
     </div>
+    
   
 <section class="mt-40">
-    <Projectsingular link="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" nummeret="1" src="bagerensbroed.png" projektnummer="01" project_name="Bagerens Brød - Game" text_project="This assignment was made on 1st semester of MMD. The assignment was to design and develop a game using HTML, CSS and Javascript, and for me this was also the first time using Javascript. To present the game I created a website which enclosed some of the proces creating the game. If you click on the link you will see the website in which you can also play the game." programmer="Skills used in this project" redskab1="HTML" redskab2="CSS" redskab3="Javascript" redskab4="Adobe Illustrator" redskab5="Adobe Photoshop" redskab6="Adobe Photoshop" />
+    <Projectsingular link="https://emiliefischer.com/kea/1sem/04_animation/website/spil.html" nummeret="1" src="bagerensbroed.png" projektnummer="01" project_name="Animation Game" text_project="This assignment was made on 1st semester of MMD. The assignment was to design and develop a game using HTML, CSS and Javascript, and for me this was also the first time using Javascript. To present the game I created a website which enclosed some of the proces creating the game. If you click on the link you will see the website in which you can also play the game." programmer="Skills used in this project" redskab1="HTML" redskab2="CSS" redskab3="Javascript" redskab4="Adobe Illustrator" redskab5="Adobe Photoshop" redskab6="Adobe Photoshop" />
 </section>
 <section class="mt-40">
     <Projectsingular link="https://lineberner.com/kea/2_semester/dolah/" nummeret="2" src="dolah.png" projektnummer="02" project_name="Do Lah - Exam project" text_project="This project was our 2nd semester exam project. The assignment was to work with an entrepreneur for whom we had to design and develop a new website using a CMS. We also had to innovate their visual identity, which had to be clarified in the making of new video-, imagery- and SoMe content as well. This assignment was also the first time working with SEO, and therefore we had to make sure that the site was SEO optimized. In this project my main focus was to edit and create the promotion video, which had to be represented on the new website." programmer="Skills & tools used" redskab1="Wordpress (CMS)" redskab2="HTML" redskab3="CSS" redskab4="Javascript" redskab5="Adobe Premiere Pro and After Effects" redskab6="Adobe Illustrator & Photoshop"/>
@@ -31,8 +35,36 @@
     <Projectsingular link="https://emiliefischer.com/kea/3sem/Typografi/promoveringssite/dist/index.html" nummeret="6" src="crazyfont.png" projektnummer="06" project_name="Typography assignment - 3th semester" text_project="This assignment was one of the small ones taking part in the course of typography and variable fonts. The purpose was to design, create and build our own creative font and then build a promotion site. The promotion site had to show the use of our font i different scenarios with no limitations. Therefore, this assignment was also an assignment in which I got to learn more about the technical use of Adobe Photoshop and Adobe Illustrator." programmer="Skills & tools used" redskab1="HTML & CSS" redskab2="Tailwind CSS & keyframe animations" redskab3="Figma" redskab4="Adobe Photoshop" redskab5="Adobe Illustrator" redskab6="Adobe After Effects"/>
 </section>
 
+<section id="contact_me" class=" md:grid md:grid-cols-3 h-auto mt-[2rem]">
+    <article class="mt-10 mb-10">
+    <h3 class="pr-10 md:pr-0  p-2 text-6xl md:text-8xl  pl-10 md:pl-28 roboto uppercase font-medium">Looking for a new intern?</h3>    
+    </article>
+    <article>
+    <p class=" pl-10 md:pl-28 px-10 md:px-0 md:pt-[10rem] ">I'm a multimedia design student looking for a digital internship! <br> If you're in need of an ambitious, curious and hardworking intern/coworker, <br> feel free to send me a message in any kind! I would love to get in touch with you!</p>
+    </article>
+    <article class="mt-10 mb-8 place-self-center col-start-3">
+        <div class="grid place-items-center mb-5">
+            <a href="sms:(+45)(28513171)">
+            <img class="md:h-[3.9rem] h-[2rem]" src="phoneblue.svg" alt="telephone icon"></a>
+            <p class="pt-4 font-bold tracking-widest pb-6 text-[#201abd]">+45 28 51 31 71</p>
+        </div> 
+        <div class="grid place-items-center mb-5">
+        <a href="mailto:emiliefdhansen@hotmail.com">
+            <img class="md:h-[3.9rem] h-[2rem]" src="mailblue.svg" alt="mail icon"></a>
+            <p class="pt-4 font-bold tracking-widest pb-6 text-[#201abd]">emiliefdhansen@hotmail.com</p>
+        </div> 
+        <div class="grid place-items-center">
+            <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank">
+            <img class="md:h-[3.9rem] h-[2rem]" src="linkblue.svg" alt="linkedin icon"></a>
+            <p class="pt-4 font-bold tracking-widest pb-6 text-[#201abd]">LinkedIn</p>
+        </div> 
+ 
+    </article>
 
-<section id="contact_me" class="grid bg-[#9B533F] h-auto place-items-center mt-[2rem]">
+   
+</section>
+
+<!-- <section id="contact_me" class="grid bg-[#9B533F] h-auto place-items-center mt-[2rem]">
     <article class="grid place-items-center mt-10 mb-10">
     <h3 class="text-5xl md:text-6xl pl-10 pr-10 md:pl-0 md:pr-0  pb-9 p-2 text-center biaukai">Looking for a new intern?</h3>
     <p class="text-center px-10 md:px-0">I'm a multimedia design student looking for a digital internship! <br> If you're in need of an ambitious, curious and hardworking intern/coworker, feel free to send me a message in any kind!</p>
@@ -56,13 +88,18 @@
             <p class="pt-4 font-bold tracking-widest pb-6 text-[#F0E8CD]">LinkedIn</p>
         </div> 
     </article>
-</section>
+</section> -->
 </main>
 
 <Footer/>
 
 <style>
-    .biaukai {
+    /* .biaukai {
         font-family: 'BiauKai';
+    } */
+
+    .roboto {
+        font-family: 'roboto flex' ;
     }
+
 </style>

@@ -11,20 +11,20 @@
         <section id="navigation" class="justify-between absolute top-0 w-full">
         <div id="brand" class:active={$page.url.pathname === '/'}>
           <a sveltekit:prefetch href="/">
-              <img class="h-20" src="logo.svg" alt="logo">
+              <img class="h-24" src="logo2.svg" alt="logo">
           </a>
         </div>
         <nav>
           <ul class="gap-20">
             <li class:active={$page.url.pathname === '/projects'}>
-              <a sveltekit:prefetch href="/projects" class="hover-underline-animation w3rcontainer text-black text-lg tracking-wider biaukai ">My work</a>
+              <a sveltekit:prefetch href="/projects" class="hover-underline-animation w3rcontainer text-black text-lg tracking-wider roboto ">My work</a>
             </li>
               <li class:active={$page.url.pathname === '/about'}>
-          <a sveltekit:prefetch href="/about" class="hover-underline-animation w3rcontainer text-black text-lg tracking-wider biaukai ">Get to know me</a>
+          <a sveltekit:prefetch href="/about" class="hover-underline-animation w3rcontainer text-black text-lg tracking-wider roboto ">Get to know me</a>
         </li>
                
               <li class:active={$page.url.pathname === '#contact_me'}>
-          <a sveltekit:prefetch href="#contact_me" class="hover-underline-animation  text-black text-lg tracking-wider  biaukai">Contact</a>
+          <a sveltekit:prefetch href="#contact_me" class="hover-underline-animation  text-black text-lg tracking-wider  roboto">Contact</a>
         </li>
           </ul>
         </nav>
@@ -37,16 +37,16 @@
           <div class="bar3 bar"></div>
           <ul class="mobile-menu gap-2">
             <li class:active={$page.url.pathname === '/'}>
-                <a sveltekit:prefetch href="/" class="hover-underline-animation text-[#F0E8CD] text-5xl">Home</a>
+                <a sveltekit:prefetch href="/" class="hover-underline-animation text-white text-5xl roboto">Home</a>
               </li>
             <li class:active={$page.url.pathname === '/projects'}>
-              <a sveltekit:prefetch href="/projects" class="hover-underline-animation text-[#F0E8CD] text-5xl">My work</a>
+              <a sveltekit:prefetch href="/projects" class="hover-underline-animation text-white text-5xl roboto">My work</a>
             </li>
             <li class:active={$page.url.pathname === '/about'}>
-              <a sveltekit:prefetch href="/about" class="hover-underline-animation text-[#F0E8CD] text-5xl">Get to know me</a>
+              <a sveltekit:prefetch href="/about" class="hover-underline-animation text-white text-5xl roboto">Get to know me</a>
             </li>
             <li class:active={$page.url.pathname === '#contact_me'}>
-              <a sveltekit:prefetch href="#contact_me" class="hover-underline-animation text-[#F0E8CD] text-5xl">Contact</a>
+              <a sveltekit:prefetch href="#contact_me" class="hover-underline-animation text-white text-5xl roboto">Contact</a>
             </li>
           </ul>
         
@@ -72,7 +72,7 @@
   height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #9B533F;
+  background-color: #fff;
   transform-origin: bottom right;
   transition: transform 0.4s ease-out;
 }
@@ -141,7 +141,7 @@
     }
 
     .open .bar {
-        background-color: #F0E8CD;     
+        background-color: #fff;     
 
     }
     .open .bar1 {
@@ -164,15 +164,15 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: #3E4237;
+      background-color: #201abd;
       height: 100vh;
       justify-content: center;
     }
     
-    a {
+    /* a {
         font-family: 'BiauKai';
     
-    }
+    } */
    
 
     @keyframes typing {
@@ -195,8 +195,12 @@
      
 
 
-.biaukai {
+/* .biaukai {
         font-family: 'BiauKai';
+    } */
+
+    .roboto {
+        font-family: 'roboto flex' ;
     }
 
 

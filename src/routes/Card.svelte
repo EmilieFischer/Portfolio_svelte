@@ -11,7 +11,7 @@
     <img class="block bg-{color}" src={src} alt="project_picture">
     <div class="overlay">
         <div class="text-overlay">
-            <h4 class="text-2xl md:text-3xl">{title}</h4>
+            <h4 class="text-2xl md:text-3xl roboto">{title}</h4>
             <div class="overlay_underline"></div>
         </div>
     </div></a>
@@ -22,11 +22,11 @@
 
 <style>
 
-h4 {
-    font-family: 'BiauKai';
-}
 
-   
+.roboto {
+        font-family: 'roboto flex' ;
+    }
+
 .overlay-text-description {
     line-height: 1.5;
 }
@@ -36,7 +36,7 @@ h4 {
     border: 1.5px solid;
     margin-top: 10px;
     margin-bottom: 15px;
-    color: #9B533F;
+    color: #201abd;
 }
 
 #card_projects {

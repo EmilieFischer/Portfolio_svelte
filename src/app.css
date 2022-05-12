@@ -10,7 +10,7 @@
     --ghost-font-color: rgb(40, 41, 41);
     --color-none: 0%;
     --link-font-color: rgb(69, 37, 164);
-    --footer-background: #A6A396; 
+    --footer-background: #201abd; 
     --h3-footer-color: #3E4237; 
 
 
@@ -21,6 +21,7 @@ html {
 }
 
 body {
-    background-color: #F0E8CD;
+    /* background-color: #F0E8CD; */
+    background-color: white;
 }
 

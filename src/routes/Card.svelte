@@ -10,7 +10,7 @@
     <img class="block" src={src} alt="project_picture">
     <div class="overlay">
         <div class="text-overlay">
-            <h4 class="text-2xl md:text-3xl roboto uppercase font-medium">{title}</h4>
+            <h4 class="text-2xl md:text-3xl roboto uppercase font-medium pl-4 pt-4">{title}</h4>
             <div class="overlay_underline"></div>
         </div>
     </div></a>
@@ -36,11 +36,13 @@
     margin-top: 10px;
     margin-bottom: 15px;
     color: #fff;
+    margin-left: 1rem;
 }
 
 #card_projects {
     position: relative;
-    background-color: #201abd;
+    border: 5px solid #201abd;
+
 }
 
 img {
@@ -51,12 +53,14 @@ img {
 
 .text-overlay {
     color: #fff;
+    background-color: #201abd;
     position: absolute;
-    top: 5%;
-    left: 8%;
-    max-width: 100%;
+    top: 0%;
+    width: 100%;
     margin-right: 12px;
 }
+
+
 @media screen and (min-width: 600px) {
  
 .overlay {
@@ -65,15 +69,25 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: 20%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
+    background-color: #201abd;
+
     /* background-color: #ffffff7a; */
 }
 
+.text-overlay {
+    color: #fff;
+    background-color: #201abd;
+    position: absolute;
+    width: 100%;
+    margin-right: 12px;
+}
+
 #card_projects:hover .overlay {
-    opacity: 0.9;
+    opacity: 1;
 }
 }
 

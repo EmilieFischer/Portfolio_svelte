@@ -61,7 +61,7 @@
             </div> 
             <div class="col-start-2 col-span-1 grid place-items-center ">
                 <img {src} class="w-auto" alt="project_picture">
-                <Button> <a href={link} target="blank">Visit the website</Button> 
+                <Button> <a href={link} target="blank">The website</Button> 
             </div>
     </div>
 </section>

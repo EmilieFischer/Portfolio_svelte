@@ -26,9 +26,9 @@ import Header3 from "./Header3.svelte";
             <h3 class="roboto text-[6rem] font-medium">Hi!</h3>
             <p class="roboto text-4xl pb-10">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
             <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital designer my main focus is to do content creation and to design digital solutions based on my knowledge of user experience (UX) and user interface design (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
-            <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I hope to increase my knowledge and skills within designing digital solutions and all it implies, and I hope to do so in a professional and safe environment in which I can participate in the work proces among other talented and creative people.</p>
+            <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I hope to increase my knowledge and skills within webdesign and other digital solutions and all it implies, and I hope to do so in a professional and safe environment in which I can participate in the work proces among other talented and creative people.</p>
             <p class="pt-5">If you look below you will find a little selection of some of my projects that I've done at KEA.</p>
-            <p class="pt-5">I hope you will enjoy!</p>
+            <p class="pt-5 roboto font-bold">I hope you will enjoy!</p>
             
 
         </article>
@@ -68,7 +68,7 @@ import Header3 from "./Header3.svelte";
             <Card url="/projects#p5" src="ungdomsbyen.png"  title="Ungdomsbyen.dk"/>
         </div>
         <div>
-            <Card url="/projects#p6" src="crazyfont.png"  title="Variable Font Assignment"/>
+            <Card url="/projects#p6" src="crazyfont.png"  title="Typography Assignment"/>
         </div>
     </section>
 

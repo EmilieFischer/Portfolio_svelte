@@ -72,7 +72,7 @@
   height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #201abd;
   transform-origin: bottom right;
   transition: transform 0.4s ease-out;
 }
@@ -215,6 +215,21 @@
       #hamburger-icon {
         display: block;
       }
+
+      .hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+
+      
     }
     
     

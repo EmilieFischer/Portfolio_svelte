@@ -17,7 +17,6 @@
       <h3 class="font-bold text-2xl tracking-widest pb-5 md:pb-10 ml-5 md:ml-0 pt-3">SOCIALS</h3>
         <div class="flex gap-4 md:gap-4 ml-10 md:ml-0">
           <a href="https://www.linkedin.com/in/emilie-fischer-515317234/" target="_blank"><img class="h-[4rem]" src="linkwhite.svg" alt="linkedin icon"></a>
-          <a href="https://www.instagram.com/emiliefischer/" target="_blank"><img class="h-[4rem]" src="instawhite.svg" alt="instagram icon"></a>
         </div>
       </div>
     </article>

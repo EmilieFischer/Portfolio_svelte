@@ -21,13 +21,20 @@ import Header3 from "./Header3.svelte";
             <p> Being creative comes in many ways. I love to draw, paint, build, knit and crochet, and currently I’m practising the use of Adobe Illustrator to create digital works and drawings. A totally different world from drawing on paper, but so rewarding in so many ways! 
             </p>
             <p class="pt-5">In my spare time I use most of my time being social and networking. I’m an extrovert person, so being in social environments, whether it’s private or in the context of work, always gives me so much energy and a smile on my face. </p>
-            <p class="pt-5">As a person I always thrive to be as positive as possible, because being around positive people myself always helpes me. As a coworker I’m committed to the work that I’m doing, I’m stable and always on time, accommodating to all new people that I meet, helpful, energetic and responsibly, and I find it very important to participate in the wellbeing of the people around me.</p>
+            <p>I moved to Copenhagen a few years ago, and I still investigate all the many opportunities this city has to offer. Even though I really love living in the city now and being social all the time, my love for the outdoor world will never disappear. I grew up on the country side, and sometimes when the city’s too noisy, I put on my outdoor clothes and disappear into nature. This is where I find my peace and have the time to think. 
+            </p>
+            <p class="pt-5">Sport has always been a big part of me and my spare time. This is where I retrieve my energy, especially when I do it together with my friends. I’ve spent most years of my life being a gymnast and dancer, but after being at Idrætshøjskole I discovered my love for a lot of different sports such as: swimming, kayaking and Beachvolley and so much more. When I’m not doing sports, working or other activities, you will find me sitting at a local bar og down by the water, drinking a cold beer, talking and laughing with my friends.</p>
+            <p class="pt-5">
+                As a person I always thrive to be as positive as possible, because being around positive people myself always helpes me, and I always find it very important to participate in the wellbeing of the people around me.
+            </p>
         </article>
         <div class="md:col-start-2 md:col-span-1 grid justify-items-center mt-10 md:mt-0">
             <img class="h-auto md:w-[550px] w-[400px] p-2 " src="skitse.svg" alt="profilbillede">
+           
         </div>
     </section>
 
+  
 
     <!-- <div class="grid py-20 pl-10 pr-10 bg-[#3E4237] mt-10">
         <h2 class="text-5xl md:text-6xl text-center text-[#F0E8CD] biaukai">Who I am according to: <span class="text-3xl md:text-6xl"> <br> 16personalities.com </span></h2>

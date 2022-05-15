@@ -24,9 +24,11 @@ import Header3 from "./Header3.svelte";
     <section class="md:grid md:grid-cols-2 md:p-28 gap-20 mt-10 md:mt-0">
         <article class="md:col-start-1 md:col-span-1 p-10 md:p-0">
             <h3 class="roboto text-[6rem] font-medium">Hi!</h3>
-            <p class="roboto text-4xl pb-10">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
+            <p class="roboto text-4xl pb-5">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
             <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital designer my main focus is to do content creation and to design digital solutions based on my knowledge of user experience (UX) and user interface design (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
-            <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I hope to increase my knowledge and skills within webdesign and other digital solutions and all it implies, and I hope to do so in a professional and safe environment in which I can participate in the work proces among other talented and creative people.</p>
+            <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I’m hoping to take part in a team of other digital designers working side by side with people from other areas of ​​competence. I hope to develop my own knowledge and skills within web design, and hopefully also to contribute with the knowledge that I already do have. I also hope to develop personally, and in this way become more integrated into the professional world as a web designer and/or content creator.</p>
+            <!-- <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I hope to increase my knowledge and skills within webdesign and other digital solutions and all it implies, and I hope to do so in a professional and safe environment in which I can participate in the work proces among other talented and creative people.</p> -->
+
             <p class="pt-5">If you look below you will find a little selection of some of my projects that I've done at KEA.</p>
             <p class="pt-5 roboto font-bold">I hope you will enjoy!</p>
             

@@ -18,7 +18,7 @@ import Header3 from "./Header3.svelte";
     <section class="md:grid md:grid-cols-2 md:px-28 md:py-10 gap-20 " >
         <article class="md:col-start-1 md:col-span-1 p-4 px-10 md:px-0">
             <p class="roboto text-4xl pb-10">I’m a creative soul who newly discovered the possibility to actually spent your life working with what you love most - working in a creative environment - how amazing is that?!</p>
-            <p> Being creative comes in many ways. I love to draw, paint, build, knit and crochet, and currently I’m practising the use of Adobe Illustrator to create digital works and drawings. A totally different world from drawing on paper, but still so amazing! 
+            <p> Being creative comes in many ways. I love to draw, paint, build, knit and crochet, and currently I’m practising the use of Adobe Illustrator to create digital works and drawings. A totally different world from drawing on paper, but so rewarding in so many ways! 
             </p>
             <p class="pt-5">In my spare time I use most of my time being social and networking. I’m an extrovert person, so being in social environments, whether it’s private or in the context of work, always gives me so much energy and a smile on my face. </p>
             <p class="pt-5">As a person I always thrive to be as positive as possible, because being around positive people myself always helpes me. As a coworker I’m committed to the work that I’m doing, I’m stable and always on time, accommodating to all new people that I meet, helpful, energetic and responsibly, and I find it very important to participate in the wellbeing of the people around me.</p>

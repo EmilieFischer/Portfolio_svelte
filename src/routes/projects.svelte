@@ -38,11 +38,11 @@
 
 <section id="contact_me" class=" md:grid md:grid-cols-3 h-auto mt-[2rem]">
     <article class="mt-10 mb-10">
-    <h3 class="pr-10 md:pr-0  p-2 text-6xl md:text-8xl  pl-10 md:pl-28 roboto uppercase font-medium">Looking for a new intern?</h3>    
+    <h3 class="pr-10 md:pr-0  p-2 text-6xl md:text-8xl  pl-10 md:pl-28 roboto uppercase font-medium">Looking for a multimedia designer?</h3>    
     </article>
-    <article>
+    <!-- <article>
     <p class=" pl-10 md:pl-28 px-10 md:px-0 md:pt-[10rem] ">I'm a multimedia design student looking for a digital internship! <br> If you're in need of an ambitious, curious and hardworking intern/coworker, <br> feel free to send me a message in any kind! I would love to get in touch with you!</p>
-    </article>
+    </article> -->
     <article class="mt-10 mb-8 place-self-center col-start-3">
         <div class="grid place-items-center mb-5">
             <a href="sms:(+45)(28513171)">

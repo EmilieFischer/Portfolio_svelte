@@ -24,15 +24,13 @@ import Header3 from "./Header3.svelte";
     <section class="md:grid md:grid-cols-2 md:p-28 gap-20 mt-10 md:mt-0">
         <article class="md:col-start-1 md:col-span-1 p-10 md:p-0">
             <h3 class="roboto text-[6rem] font-medium">Hi!</h3>
-            <p class="roboto text-4xl pb-5">My name is Emilie Fischer, and I'm studying Multimedia Design at Copenhagen School of Design and Technology.</p>
-            <p>Currently I'm at my third semester where I have chosen the selective Digital Design. As a digital designer my main focus is to do content creation and to design digital solutions based on my knowledge of user experience (UX) and user interface design (UI). However, within my interests of multimedia design I'm also focusing on developing the digital solutions in respectively HTML, CSS and Javascript.</p>
-            <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I’m hoping to take part in a team of other digital designers working side by side with people from other areas of ​​competence. I hope to develop my own knowledge and skills within web design, and hopefully also to contribute with the knowledge that I already do have. I also hope to develop personally, and in this way become more integrated into the professional world as a web designer and/or content creator.</p>
+            <p class="roboto text-4xl pb-5">My name is Emilie Fischer, and I'm an educated Multimedia Designer.</p>
+            <p>Currently I'm at my fifth semester at Copenhagen School of Design and Technology where I have chosen the Top Up Web Development. As a multimedia designer my main focus is to design digital solutions based on my knowledge of user experience (UX) and user interface design (UI). However, within my interests of web development I'm also focusing on developing the digital solutions within my knowledge of respectively HTML, CSS, Javascript and PHP.</p>
+            <!-- <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I’m hoping to take part in a team of other digital designers working side by side with people from other areas of ​​competence. I hope to develop my own knowledge and skills within web design, and hopefully also to contribute with the knowledge that I already do have. I also hope to develop personally, and in this way become more integrated into the professional world as a web designer and/or content creator.</p> -->
             <!-- <p class="pt-5">As a person I'm curious, motivated, responsibly and hardworking. In my upcoming internship I hope to increase my knowledge and skills within webdesign and other digital solutions and all it implies, and I hope to do so in a professional and safe environment in which I can participate in the work proces among other talented and creative people.</p> -->
 
             <p class="pt-5">If you look below you will find a little selection of some of my projects that I've done at KEA.</p>
             <p class="pt-5 roboto font-bold">I hope you will enjoy!</p>
-            
-
         </article>
         <div class="md:col-start-2 md:col-span-1 grid justify-items-center">
             <img class="h-auto md:w-[450px] w-[300px] p-2 border-4 border-[#201abd]" src="profil-sh.png" alt="profilbillede">
@@ -77,11 +75,11 @@ import Header3 from "./Header3.svelte";
 
     <section id="contact_me" class=" md:grid md:grid-cols-3 h-auto mt-[2rem]">
         <article class="mt-10 mb-10">
-        <h3 class="pr-10 md:pr-0  p-2 text-6xl md:text-8xl  pl-10 md:pl-28 roboto uppercase font-medium">Looking for a new intern?</h3>    
+        <h3 class="pr-10 md:pr-0  p-2 text-6xl md:text-8xl  pl-10 md:pl-28 roboto uppercase font-medium">Looking for a multimedia designer?</h3>    
         </article>
-        <article>
-        <p class=" pl-10 md:pl-28 px-10 md:px-0 md:pt-[10rem] ">I'm a multimedia design student looking for a digital internship! <br> If you're in need of an ambitious, curious and hardworking intern/coworker, <br> feel free to send me a message in any kind! I would love to get in touch with you!</p>
-        </article>
+        <!-- <article>
+        <p class=" pl-10 md:pl-28 px-10 md:px-0 md:pt-[10rem] ">I'm a multimedia designer looking for a digital internship! <br> If you're in need of an ambitious, curious and hardworking intern/coworker, <br> feel free to send me a message in any kind! I would love to get in touch with you!</p>
+        </article> -->
         <article class="mt-10 mb-8 place-self-center col-start-3">
             <div class="grid place-items-center mb-5">
                 <a href="sms:(+45)(28513171)">
